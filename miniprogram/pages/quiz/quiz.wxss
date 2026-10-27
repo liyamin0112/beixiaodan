@@ -1,0 +1,108 @@
+.mode-row {
+  flex-wrap: wrap;
+}
+
+.chip {
+  padding: 14rpx 30rpx;
+  border-radius: 999rpx;
+  background: #f2f4fa;
+  color: #4a5266;
+  font-size: 26rpx;
+  border: 2rpx solid transparent;
+}
+
+.chip--on {
+  background: #eef2fd;
+  color: #3561f4;
+  border-color: #3561f4;
+  font-weight: 600;
+}
+
+.stem-label {
+  color: #8a93a6;
+  font-size: 24rpx;
+}
+
+.stem {
+  font-size: 44rpx;
+  font-weight: 600;
+  margin-top: 16rpx;
+}
+
+.stem--word {
+  font-size: 72rpx;
+  letter-spacing: 1rpx;
+}
+
+.play {
+  color: #3561f4;
+  font-size: 26rpx;
+  padding: 4rpx 20rpx;
+  background: #eef2fd;
+  border-radius: 999rpx;
+}
+
+.opt {
+  padding: 24rpx 28rpx;
+  border-radius: 18rpx;
+  background: #f7f9fd;
+  border: 2rpx solid #eaeef7;
+  font-size: 30rpx;
+  margin-bottom: 18rpx;
+}
+
+.opt--picked {
+  background: #eef2fd;
+  border-color: #3561f4;
+  color: #3561f4;
+  font-weight: 600;
+}
+
+.opt--right {
+  background: #e7f7ee;
+  border-color: #1f9d55;
+  color: #1f9d55;
+  font-weight: 600;
+}
+
+.opt--answer {
+  border-color: #1f9d55;
+  background: #e7f7ee;
+  color: #1f9d55;
+}
+
+.opt--dim {
+  opacity: 0.55;
+}
+
+.judge {
+  margin-top: 8rpx;
+  font-size: 28rpx;
+}
+
+.judge--ok {
+  color: #1f9d55;
+}
+
+.judge--no {
+  color: #d94b4b;
+}
+
+.result {
+  text-align: center;
+  padding: 48rpx 32rpx;
+}
+
+.num.big {
+  font-size: 96rpx;
+}
+
+.res-item {
+  padding: 22rpx 0;
+  border-bottom: 2rpx solid #f0f2f8;
+  text-align: left;
+}
+
+.res-item:last-of-type {
+  border-bottom: none;
+}

@@ -1,0 +1,62 @@
+.study-card {
+  padding: 40rpx 32rpx;
+  min-height: 420rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.word {
+  font-size: 84rpx;
+  font-weight: 700;
+  letter-spacing: 1rpx;
+  margin-top: 32rpx;
+  word-break: break-all;
+}
+
+.phonetic {
+  color: #7b8497;
+  font-size: 30rpx;
+}
+
+.play {
+  color: #3561f4;
+  font-size: 26rpx;
+  padding: 4rpx 20rpx;
+  background: #eef2fd;
+  border-radius: 999rpx;
+}
+
+.answer {
+  margin-top: 8rpx;
+}
+
+.meaning {
+  font-size: 40rpx;
+  font-weight: 600;
+  color: #1c2333;
+}
+
+.example {
+  font-size: 30rpx;
+  color: #3b4356;
+  background: #f6f8fc;
+  padding: 20rpx 24rpx;
+  border-radius: 16rpx;
+}
+
+.blank {
+  margin-top: auto;
+  padding-top: 40rpx;
+  color: #c3c9d6;
+  font-size: 26rpx;
+}
+
+.done {
+  padding: 60rpx 32rpx;
+  text-align: center;
+}
+
+.done__title {
+  font-size: 40rpx;
+  font-weight: 700;
+}

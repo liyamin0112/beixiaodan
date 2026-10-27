@@ -1,0 +1,139 @@
+<view class="wrap">
+  <view class="card">
+    <view class="row row--between">
+      <view class="col grow">
+        <view class="title strong">{{user.nickname || '学习者'}}</view>
+        <view class="sub mt8" wx:if="{{user.account}}">账号：{{user.account}}</view>
+        <view class="muted mt8" wx:else>微信快捷登录</view>
+      </view>
+      <view class="tag {{user.role === 'admin' ? '' : 'tag--gray'}}">
+        {{user.role === 'admin' ? '管理员' : '普通用户'}}
+      </view>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="grid">
+      <view class="grid__item">
+        <view class="num">{{stats.streak || 0}}</view>
+        <view class="sub">连续打卡（天）</view>
+      </view>
+      <view class="grid__item">
+        <view class="num">{{stats.learned || 0}}</view>
+        <view class="sub">已学</view>
+      </view>
+      <view class="grid__item">
+        <view class="num">{{stats.mastered || 0}}</view>
+        <view class="sub">已掌握</view>
+      </view>
+      <view class="grid__item">
+        <view class="num">{{stats.due || 0}}</view>
+        <view class="sub">待复习</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="cell" bindtap="openModal" data-key="nickname">
+      <text class="cell__label">修改昵称</text>
+      <text class="sub">{{user.nickname || '未设置'}}</text>
+    </view>
+    <view class="cell">
+      <text class="cell__label">每日目标</text>
+      <text class="sub">每天 {{user.dailyGoal || 0}} 个</text>
+    </view>
+    <view class="cell">
+      <text class="cell__label">每日新词</text>
+      <text class="sub">每天 {{user.newWordLimit || 0}} 个</text>
+    </view>
+    <view class="cell" bindtap="openModal" data-key="password">
+      <text class="cell__label">{{user.hasPassword ? '修改密码' : '设置密码'}}</text>
+      <text class="sub">用于账号登录</text>
+    </view>
+    <view class="cell" bindtap="openModal" data-key="server">
+      <text class="cell__label">服务器地址</text>
+      <text class="sub">{{baseUrl}}</text>
+    </view>
+  </view>
+
+  <view class="card">
+    <block wx:if="{{conn.ok}}">
+      <text class="muted">服务正常 · 词库 {{conn.wordbooks}} 本 / 单词 {{conn.words}} 个</text>
+    </block>
+    <block wx:else>
+      <view class="tag tag--orange">连不上服务器，请检查后端是否启动、地址是否正确</view>
+      <view class="muted mt8" wx:if="{{conn.error}}">{{conn.error}}</view>
+    </block>
+  </view>
+
+  <view class="card" wx:if="{{user.role === 'admin'}}">
+    <view class="title mb16">管理员工具</view>
+    <view class="cell" bindtap="toggleMembers">
+      <text class="cell__label">成员管理</text>
+      <text class="sub">{{membersOpen ? '收起' : '展开'}}</text>
+    </view>
+    <view wx:if="{{membersOpen}}">
+      <view class="empty" wx:if="{{members.length === 0}}">加载中或暂无成员</view>
+      <view class="member card--flat mt16" wx:for="{{members}}" wx:key="id">
+        <view class="col">
+          <view class="strong">{{item.nickname || '学习者'}}</view>
+          <view class="sub" wx:if="{{item.account}}">账号：{{item.account}}</view>
+          <view class="sub">{{item.roleText}} · 已学 {{item.learned || 0}} · 连续 {{item.streak || 0}} 天</view>
+          <view class="muted mt8">最近登录：{{item.lastLoginText}}</view>
+        </view>
+        <view class="row row--gap mt16">
+          <button class="btn btn--grid" bindtap="setRole" data-id="{{item.id}}" data-role="{{item.role}}">
+            {{item.role === 'admin' ? '取消管理员' : '设为管理员'}}
+          </button>
+          <button class="btn btn--danger btn--grid" bindtap="resetPassword" data-id="{{item.id}}" data-name="{{item.nickname}}">
+            重置密码 123456
+          </button>
+        </view>
+      </view>
+    </view>
+    <view class="cell" bindtap="openModal" data-key="book">
+      <text class="cell__label">新建公共词库</text>
+      <text class="sub">所有人可选</text>
+    </view>
+  </view>
+
+  <button class="btn btn--danger mt24" bindtap="logout">退出登录</button>
+</view>
+
+<view class="mask" wx:if="{{modal}}" bindtap="closeModal">
+  <view class="modal card" catchtap="stopTap">
+    <block wx:if="{{modal === 'nickname'}}">
+      <view class="title mb16">修改昵称</view>
+      <input class="input" placeholder="请输入昵称" value="{{nicknameInput}}" maxlength="20"
+        bindinput="onInput" data-field="nicknameInput" />
+      <button class="btn btn--primary mt24" bindtap="saveNickname">保存</button>
+    </block>
+
+    <block wx:elif="{{modal === 'password'}}">
+      <view class="title mb16">{{user.hasPassword ? '修改密码' : '设置密码'}}</view>
+      <input class="input" password placeholder="新密码，至少 6 位" value="{{pwd1}}"
+        bindinput="onInput" data-field="pwd1" />
+      <input class="input mt16" password placeholder="确认新密码" value="{{pwd2}}"
+        bindinput="onInput" data-field="pwd2" />
+      <view class="muted mt8">设置后可用「账号 + 密码」登录</view>
+      <button class="btn btn--primary mt24" bindtap="savePassword">保存</button>
+    </block>
+
+    <block wx:elif="{{modal === 'server'}}">
+      <view class="title mb16">服务器地址</view>
+      <input class="input" placeholder="{{baseUrl}}" value="{{serverInput}}"
+        bindinput="onInput" data-field="serverInput" />
+      <view class="muted mt8">本机调试用 http://127.0.0.1:8787；真机预览改成电脑局域网 IP。留空保存即恢复默认地址</view>
+      <button class="btn btn--primary mt24" bindtap="saveServer">保存</button>
+    </block>
+
+    <block wx:elif="{{modal === 'book'}}">
+      <view class="title mb16">新建公共词库</view>
+      <input class="input" placeholder="词库名称" value="{{bookTitle}}"
+        bindinput="onInput" data-field="bookTitle" />
+      <textarea class="textarea mt16" placeholder="备注（可不填）" value="{{bookDesc}}"
+        bindinput="onInput" data-field="bookDesc" />
+      <button class="btn btn--primary mt24" bindtap="createBook">创建</button>
+    </block>
+  </view>
+</view>

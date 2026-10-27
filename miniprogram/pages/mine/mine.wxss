@@ -1,0 +1,40 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid__item {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 18rpx 8rpx;
+  text-align: center;
+}
+
+.cell__label {
+  font-size: 30rpx;
+}
+
+.member {
+  padding: 24rpx;
+  border-radius: 20rpx;
+}
+
+.mask {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  background: rgba(20, 28, 48, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48rpx;
+  box-sizing: border-box;
+}
+
+.modal {
+  width: 100%;
+  margin-bottom: 0;
+}

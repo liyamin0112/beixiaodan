@@ -1,0 +1,61 @@
+<view class="wrap">
+  <view wx:if="{{loading}}" class="empty">正在出题…</view>
+
+  <view wx:elif="{{error}}" class="card">
+    <view class="title">出错了</view>
+    <view class="sub mt8">{{error}}</view>
+    <button class="btn btn--primary mt24" bindtap="fetch">重试</button>
+  </view>
+
+  <block wx:elif="{{card}}">
+    <view class="row row--between mb16">
+      <text class="muted">今日 {{day.done}} / {{day.goal}}</text>
+      <text class="muted">本轮已背 {{seen}} · 回炉 {{again.length}}</text>
+    </view>
+    <view class="bar mb16">
+      <view class="bar__fill" style="width:{{percent}}%"></view>
+    </view>
+
+    <view class="card study-card" bindtap="reveal">
+      <view class="row row--between">
+        <text wx:if="{{card.status !== 'new'}}" class="tag">复习</text>
+        <text wx:else class="tag tag--orange">新词</text>
+        <text class="muted">轻点看释义</text>
+      </view>
+      <view class="word">{{card.word}}</view>
+      <view class="row row--gap mt8">
+        <text class="phonetic" wx:if="{{card.phonetic}}">{{card.phonetic}}</text>
+        <text class="play" catchtap="play">听发音</text>
+      </view>
+
+      <view wx:if="{{revealed}}" class="answer">
+        <view class="divider"></view>
+        <view class="meaning">{{card.pos}} {{card.meaning}}</view>
+        <block wx:if="{{card.example}}">
+          <view class="example mt16">{{card.example}}</view>
+          <view class="sub mt8" wx:if="{{card.exampleCn}}">{{card.exampleCn}}</view>
+        </block>
+      </view>
+      <view wx:else class="blank">看完再选，别猜</view>
+    </view>
+
+    <view class="row row--gap mt24" wx:if="{{revealed}}">
+      <button wx:for="{{ratings}}" wx:key="value" class="btn btn--grid {{item.cls}}" data-rating="{{item.value}}" bindtap="grade">{{item.label}}</button>
+    </view>
+    <button wx:else class="btn btn--primary mt24" bindtap="reveal">显示释义</button>
+  </block>
+
+  <view wx:else class="card done">
+    <view class="done__title">今日任务完成</view>
+    <view class="sub mt8">本轮背了 {{seen}} 个，记住 {{right}} 个</view>
+    <view class="num mt24">{{day.done}} / {{day.goal}}</view>
+    <view class="muted">个单词</view>
+    <button wx:if="{{!checkedIn}}" class="btn btn--primary mt24" bindtap="checkIn" loading="{{checkingIn}}">今日打卡</button>
+    <view wx:else class="mt24"><text class="tag tag--green">已打卡 {{streak}} 天</text></view>
+    <view class="row row--gap mt16">
+      <button class="btn btn--ghost btn--grid" bindtap="restart">再背一轮</button>
+      <button class="btn btn--ghost btn--grid" bindtap="goQuiz">去测一测</button>
+    </view>
+    <button class="btn btn--ghost mt16" bindtap="back">回到首页</button>
+  </view>
+</view>

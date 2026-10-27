@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/study/study",
+    "pages/quiz/quiz",
+    "pages/books/books",
+    "pages/book-detail/book-detail",
+    "pages/word-detail/word-detail",
+    "pages/stats/stats",
+    "pages/mine/mine",
+    "pages/login/login"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#3561F4",
+    "navigationBarTitleText": "背小单",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#F4F6FB",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#8A93A6",
+    "selectedColor": "#3561F4",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      { "pagePath": "pages/index/index", "text": "今天" },
+      { "pagePath": "pages/books/books", "text": "词库" },
+      { "pagePath": "pages/stats/stats", "text": "统计" },
+      { "pagePath": "pages/mine/mine", "text": "我的" }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

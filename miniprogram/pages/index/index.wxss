@@ -1,0 +1,4 @@
+.stat-mini {
+  display: flex;
+  flex-direction: column;
+}

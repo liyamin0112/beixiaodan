@@ -1,0 +1,28 @@
+<view class="wrap login">
+  <view class="brand">
+    <view class="brand__title">背小单</view>
+    <view class="brand__sub">每天十分钟，按记忆曲线背单词</view>
+  </view>
+
+  <view class="card">
+    <button class="btn btn--primary" bindtap="wxLogin">微信一键登录</button>
+    <view class="err mt16" wx:if="{{err}}">{{err}}</view>
+  </view>
+
+  <view class="card">
+    <view class="row row--between" bindtap="toggleForm">
+      <text class="title">用账号登录</text>
+      <text class="sub">{{formOpen ? '收起' : '展开'}}</text>
+    </view>
+    <view class="mt16" wx:if="{{formOpen}}">
+      <input class="input" placeholder="账号" value="{{account}}"
+        bindinput="onInput" data-field="account" />
+      <input class="input mt16" password placeholder="密码，至少 6 位" value="{{password}}"
+        bindinput="onInput" data-field="password" />
+      <button class="btn btn--primary mt24" bindtap="doLogin">登录</button>
+      <button class="btn btn--ghost mt16" bindtap="doRegister">注册新账号</button>
+    </view>
+  </view>
+
+  <view class="muted mt24">本地演示账号 admin / 123456（管理员）、demo / 123456</view>
+</view>

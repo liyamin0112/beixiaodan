@@ -1,0 +1,10 @@
+# 运行时数据：账号、密码哈希、登录 token、学习进度，全部不上传
+server/data/db.json
+server/data/db.json.tmp
+
+# 微信开发者工具的个人本地配置
+miniprogram/project.private.config.json
+
+# 依赖与系统文件
+node_modules/
+.DS_Store

@@ -1,0 +1,78 @@
+<view class="wrap">
+  <view class="card">
+    <view class="row row--between">
+      <view class="col grow">
+        <text class="num">{{bookCount}}</text>
+        <text class="sub">本词库</text>
+      </view>
+      <view class="col grow statsRight">
+        <text class="num">{{wordCount}}</text>
+        <text class="sub">个单词</text>
+      </view>
+    </view>
+  </view>
+
+  <view wx:if="{{error}}" class="card">
+    <view class="title">词库没加载出来</view>
+    <view class="sub mt8">{{error}}</view>
+    <button class="btn btn--ghost mt24" bindtap="onTapRetry">重新加载</button>
+  </view>
+
+  <block wx:elif="{{!loading}}">
+    <block wx:if="{{builtinBooks.length}}">
+      <view class="group">内置词库</view>
+      <view class="card book" wx:for="{{builtinBooks}}" wx:key="id" data-id="{{item.id}}" data-title="{{item.title}}" bindtap="onTapBook">
+        <view class="row row--between row--gap">
+          <view class="col grow">
+            <view class="row row--gap">
+              <text class="title">{{item.title}}</text>
+              <text wx:if="{{item.selected}}" class="tag tag--green">背诵中</text>
+              <text wx:else class="tag">选择</text>
+            </view>
+            <view wx:if="{{item.description}}" class="sub mt8">{{item.description}}</view>
+            <view class="muted mt8">{{item.count}} 个单词</view>
+          </view>
+          <button class="btn btn--sm {{item.selected ? 'btn--ghost' : 'btn--primary'}}" data-id="{{item.id}}" catchtap="onTapSelect">{{item.selected ? '取消' : '背诵'}}</button>
+        </view>
+      </view>
+    </block>
+
+    <block wx:if="{{myBooks.length}}">
+      <view class="group">我的词库</view>
+      <view class="card book" wx:for="{{myBooks}}" wx:key="id" data-id="{{item.id}}" data-title="{{item.title}}" bindtap="onTapBook">
+        <view class="row row--between row--gap">
+          <view class="col grow">
+            <view class="row row--gap">
+              <text class="title">{{item.title}}</text>
+              <text wx:if="{{item.selected}}" class="tag tag--green">背诵中</text>
+              <text wx:else class="tag">选择</text>
+            </view>
+            <view wx:if="{{item.description}}" class="sub mt8">{{item.description}}</view>
+            <view class="muted mt8">{{item.count}} 个单词</view>
+          </view>
+          <button class="btn btn--sm {{item.selected ? 'btn--ghost' : 'btn--primary'}}" data-id="{{item.id}}" catchtap="onTapSelect">{{item.selected ? '取消' : '背诵'}}</button>
+        </view>
+      </view>
+    </block>
+
+    <view wx:if="{{!bookCount}}" class="empty">还没有词库，先新建一本再导入单词</view>
+    <view wx:else class="muted tip">点词库可以看里面的单词，右边的「背诵」决定每天学哪几本。</view>
+  </block>
+
+  <view wx:else class="empty">加载中</view>
+
+  <button class="btn btn--primary mt24" bindtap="onTapCreate">新建词库</button>
+
+  <view wx:if="{{createVisible}}" class="mask" bindtap="onTapCloseCreate">
+    <view class="card sheet" catchtap="noop">
+      <view class="title">新建词库</view>
+      <input class="input mt16" placeholder="词库名称，例如：我的生词本" value="{{form.title}}" data-field="title" bindinput="onFormField" maxlength="30" />
+      <input class="input mt16" placeholder="备注，可以不填" value="{{form.description}}" data-field="description" bindinput="onFormField" maxlength="80" />
+      <view class="muted mt16">建好后可以在这本词库里添加或批量导入单词。</view>
+      <view class="row row--gap mt24">
+        <button class="btn btn--ghost btn--grid" bindtap="onTapCloseCreate">取消</button>
+        <button class="btn btn--primary btn--grid" bindtap="onTapSubmitCreate">创建</button>
+      </view>
+    </view>
+  </view>
+</view>

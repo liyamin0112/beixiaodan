@@ -1,0 +1,85 @@
+<view class="wrap">
+  <view wx:if="{{stage === 'setup'}}">
+    <view class="card">
+      <view class="title mb16">选择题型</view>
+      <view class="row row--gap mode-row">
+        <view wx:for="{{modes}}" wx:key="key" class="chip {{mode === item.key ? 'chip--on' : ''}}" data-key="{{item.key}}" bindtap="setMode">{{item.label}}</view>
+      </view>
+    </view>
+    <view class="card">
+      <view class="title mb16">题目数量</view>
+      <view class="row row--gap">
+        <view wx:for="{{counts}}" wx:key="*this" class="chip {{limit === item ? 'chip--on' : ''}}" data-n="{{item}}" bindtap="setLimit">{{item}} 题</view>
+      </view>
+    </view>
+    <view wx:if="{{error}}" class="card">
+      <text class="sub">{{error}}</text>
+    </view>
+    <button class="btn btn--primary" bindtap="start" loading="{{loading}}">开始测试</button>
+    <view class="muted mt16" style="text-align:center">题目从你正在背的词库里出，答错会自动进入复习计划</view>
+  </view>
+
+  <block wx:elif="{{stage === 'quiz' && current}}">
+    <view class="row row--between mb16">
+      <text class="muted">第 {{index + 1}} / {{questions.length}} 题</text>
+      <text class="muted">答对 {{correct}}</text>
+    </view>
+    <view class="bar mb16">
+      <view class="bar__fill" style="width:{{(index + 1) / questions.length * 100}}%"></view>
+    </view>
+
+    <view class="card">
+      <view wx:if="{{current.type === 'spelling'}}">
+        <view class="stem-label">根据释义写出单词</view>
+        <view class="stem">{{current.stem}}</view>
+        <view class="row row--gap mt16">
+          <text class="muted" wx:if="{{current.pos}}">{{current.pos}}</text>
+          <text class="muted" wx:if="{{current.phonetic}}">{{current.phonetic}}</text>
+          <text class="muted" wx:if="{{current.hint}}">提示：{{current.hint}}</text>
+        </view>
+        <input class="input mt24" placeholder="在这里输入单词" value="{{spelled}}" bindinput="onSpell" confirm-type="done" bindconfirm="submitSpell" />
+        <button wx:if="{{!judged}}" class="btn btn--primary mt24" bindtap="submitSpell">提交答案</button>
+      </view>
+
+      <view wx:else>
+        <view class="stem-label">{{current.type === 'choice' ? '选出正确的英文单词' : '选出正确的中文意思'}}</view>
+        <view class="stem {{current.type === 'meaning' ? 'stem--word' : ''}}">{{current.stem}}</view>
+        <view class="row mt8" wx:if="{{current.type === 'meaning'}}">
+          <text class="play" bindtap="playAudio">听发音</text>
+        </view>
+        <view class="opts mt24">
+          <view wx:for="{{options}}" wx:key="*this"
+                class="opt {{picked === item ? (judged ? 'opt--right' : 'opt--picked') : ''}} {{judged !== null && item === current.answer ? 'opt--answer' : ''}} {{judged !== null && picked !== item && item !== current.answer ? 'opt--dim' : ''}}"
+                data-opt="{{item}}" bindtap="pick">{{item}}</view>
+        </view>
+      </view>
+
+      <view wx:if="{{judged !== null}}" class="judge {{judged ? 'judge--ok' : 'judge--no'}}">
+        <text>{{judged ? '答对了' : '答错了，正确答案：' + current.answer}}</text>
+      </view>
+    </view>
+
+    <button wx:if="{{judged !== null}}" class="btn btn--primary mt24" bindtap="next">{{index + 1 >= questions.length ? '看成绩' : '下一题'}}</button>
+  </block>
+
+  <view wx:elif="{{stage === 'result'}}" class="card result">
+    <view class="sub">本次成绩</view>
+    <view class="num big">{{score.percent}}%</view>
+    <view class="mt8">{{score.correct}} / {{score.total}} 题答对<text wx:if="{{score.seconds}}"> · 用时 {{score.seconds}} 秒</text></view>
+    <view wx:if="{{error}}" class="muted mt8">{{error}}</view>
+
+    <view wx:if="{{results.length}}" class="divider"></view>
+    <view wx:for="{{results}}" wx:key="wordId" class="row row--between res-item">
+      <view class="col grow">
+        <text class="strong">{{item.word}}</text>
+        <text class="muted mt8">{{item.meaning}}</text>
+      </view>
+      <text class="{{item.correct ? 'tag tag--green' : 'tag--orange tag'}}">{{item.correct ? '对' : '错'}}</text>
+    </view>
+
+    <button class="btn btn--primary mt24" bindtap="again">再来一组</button>
+    <button class="btn btn--ghost mt16" bindtap="toStudy">返回</button>
+  </view>
+
+  <view wx:else class="empty">{{loading ? '正在判分…' : '没有题目可出'}}</view>
+</view>

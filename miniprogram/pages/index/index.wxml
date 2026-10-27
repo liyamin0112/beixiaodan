@@ -1,0 +1,76 @@
+<view class="wrap">
+  <view wx:if="{{loading}}" class="empty">正在加载…</view>
+
+  <view wx:elif="{{error}}" class="card">
+    <view class="title">连不上服务器</view>
+    <view class="sub mt8">{{error}}</view>
+    <view class="muted mt16">请确认：1）电脑上已运行 start.sh 或 node server/server.js；2）「我的 → 服务器地址」填的是 http://本机IP:8787；3）开发者工具已勾选「不校验合法域名」。</view>
+    <button class="btn btn--primary mt24" bindtap="load">重新连接</button>
+  </view>
+
+  <block wx:else>
+    <view class="card">
+      <view class="row row--between">
+        <view>
+          <view class="title">{{greeting}}，{{hello}}</view>
+          <view class="sub mt8">今天背 {{day.done}} / {{day.goal}} 个单词</view>
+        </view>
+        <view class="col" style="align-items:flex-end">
+          <view class="num">{{streak}}</view>
+          <view class="muted">连续天数</view>
+        </view>
+      </view>
+      <view class="bar mt16">
+        <view class="bar__fill" style="width:{{percent}}%"></view>
+      </view>
+      <view class="row row--between mt8">
+        <text class="muted">新学 {{day.newDone}} 个 · 复习 {{day.reviewDone}} 个</text>
+        <text class="muted">{{percent}}%</text>
+      </view>
+    </view>
+
+    <view class="card">
+      <view class="row row--between">
+        <view class="col grow">
+          <view class="title">开始今天的任务</view>
+          <view class="sub mt8">复习到期 {{counts.due}} 个 · 新词 {{counts.fresh}} 个</view>
+        </view>
+      </view>
+      <view class="row row--gap mt24">
+        <button class="btn btn--primary btn--grid" bindtap="startStudy">开始背诵</button>
+        <button class="btn btn--grid" bindtap="startQuiz">测一测</button>
+      </view>
+      <button wx:if="{{canCheckIn}}" class="btn btn--ghost mt16" bindtap="checkIn" loading="{{checking}}">今日打卡</button>
+      <view wx:elif="{{day.checkIn}}" class="mt16" style="text-align:center">
+        <text class="tag tag--green">今日已打卡</text>
+      </view>
+      <view wx:else class="muted mt16" style="text-align:center">背满 {{day.goal}} 个就可以打卡了</view>
+    </view>
+
+    <view class="card card--flat">
+      <view class="row row--between cell" style="border-bottom:none;padding-top:0">
+        <view>
+          <view class="sub">正在背的词库</view>
+          <view class="strong mt8">{{bookNames}}</view>
+        </view>
+        <text class="tag" bindtap="goBooks">去切换</text>
+      </view>
+      <view class="divider"></view>
+      <view class="row row--between">
+        <view class="col">
+          <text class="strong">{{counts.learned}} / {{counts.total}}</text>
+          <text class="muted mt8">已学 / 总词汇量</text>
+        </view>
+        <view class="col" style="align-items:center">
+          <text class="strong">{{counts.mastered}}</text>
+          <text class="muted mt8">已掌握</text>
+        </view>
+        <view class="col" style="align-items:flex-end">
+          <text class="strong">{{remaining}}</text>
+          <text class="muted mt8">本轮剩余</text>
+        </view>
+      </view>
+      <button class="btn btn--ghost mt24" bindtap="goStats">查看学习统计</button>
+    </view>
+  </block>
+</view>

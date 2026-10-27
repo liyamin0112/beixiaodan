@@ -1,0 +1,203 @@
+.hero__num {
+  font-size: 80rpx;
+  font-weight: 700;
+  color: #3561f4;
+  line-height: 1.1;
+}
+
+.hero__unit {
+  margin-left: 12rpx;
+  font-size: 28rpx;
+  color: #7b8497;
+}
+
+.chart {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.chart__inner {
+  display: flex;
+  align-items: flex-end;
+  height: 250rpx;
+  box-sizing: border-box;
+}
+
+.chart__col {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 60rpx;
+  margin-right: 10rpx;
+  height: 250rpx;
+}
+
+.chart__bar {
+  width: 30rpx;
+  border-radius: 8rpx 8rpx 4rpx 4rpx;
+}
+
+.chart__bar--good {
+  background: #3561f4;
+}
+
+.chart__bar--part {
+  background: #c7d2ee;
+}
+
+.chart__bar--none {
+  background: #edf0f7;
+}
+
+.chart__label {
+  margin-top: 10rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  font-size: 20rpx;
+  color: #a5acbb;
+  white-space: nowrap;
+}
+
+.legend {
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  width: 16rpx;
+  height: 16rpx;
+  border-radius: 50%;
+  margin-right: 8rpx;
+  flex: none;
+}
+
+.dot--good {
+  background: #3561f4;
+}
+
+.dot--part {
+  background: #c7d2ee;
+}
+
+.dot--none {
+  background: #edf0f7;
+}
+
+.dist {
+  display: flex;
+  height: 30rpx;
+  border-radius: 999rpx;
+  overflow: hidden;
+  background: #eef1f7;
+}
+
+.dist__seg {
+  height: 100%;
+}
+
+.dist__legend {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dist__item {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10rpx 0;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid__item {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 22rpx 0;
+}
+
+.grid__value {
+  font-size: 42rpx;
+  font-weight: 700;
+  color: #1c2333;
+  line-height: 1.2;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+}
+
+.step__btn {
+  width: 76rpx;
+  height: 76rpx;
+  line-height: 76rpx;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #f2f5fb;
+  color: #3561f4;
+  font-size: 44rpx;
+  font-weight: 600;
+  border-radius: 16rpx;
+  border: none;
+}
+
+.step__btn::after {
+  border: none;
+}
+
+.step__btn[disabled] {
+  color: #c3cadb;
+  background: #f5f6fa;
+}
+
+.step__num {
+  width: 120rpx;
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: 700;
+  color: #1c2333;
+}
+
+.skel {
+  background: #e9edf6;
+  border-radius: 12rpx;
+  animation: skelPulse 1.2s ease-in-out infinite;
+}
+
+.skel--hero {
+  height: 280rpx;
+}
+
+.skel--title {
+  height: 40rpx;
+  width: 40%;
+}
+
+.skel--chart {
+  height: 250rpx;
+}
+
+.skel--row {
+  height: 56rpx;
+}
+
+@keyframes skelPulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}

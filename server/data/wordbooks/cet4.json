@@ -1,0 +1,2087 @@
+{
+  "book": "cet4",
+  "title": "大学英语四级核心词",
+  "description": "覆盖大学英语四级考试高频词汇",
+  "words": [
+    {
+      "word": "accumulate",
+      "phonetic": "/əˈkjuːmjəleɪt/",
+      "pos": "v.",
+      "meaning": "积累；积聚",
+      "example": "She accumulated a lot of experience over the years.",
+      "example_cn": "多年来她积累了很多经验。"
+    },
+    {
+      "word": "acquire",
+      "phonetic": "/əˈkwaɪə(r)/",
+      "pos": "v.",
+      "meaning": "获得；习得",
+      "example": "Students acquire critical thinking skills through regular practice.",
+      "example_cn": "学生通过定期练习习得批判性思维的能力。"
+    },
+    {
+      "word": "assess",
+      "phonetic": "/əˈses/",
+      "pos": "v.",
+      "meaning": "评估；评定",
+      "example": "Teachers assess students' progress at the end of each term.",
+      "example_cn": "老师在每学期末评估学生的进步情况。"
+    },
+    {
+      "word": "evaluate",
+      "phonetic": "/ɪˈvæljueɪt/",
+      "pos": "v.",
+      "meaning": "评价；估值",
+      "example": "Researchers evaluated the effectiveness of the new teaching method.",
+      "example_cn": "研究人员评估了这种新教学方法的有效性。"
+    },
+    {
+      "word": "comprehensive",
+      "phonetic": "/ˌkɒmprɪˈhensɪv/",
+      "pos": "adj.",
+      "meaning": "全面的；综合的",
+      "example": "The report gives a comprehensive overview of the current situation.",
+      "example_cn": "这份报告对当前形势做了全面的概述。"
+    },
+    {
+      "word": "curriculum",
+      "phonetic": "/kəˈrɪkjələm/",
+      "pos": "n.",
+      "meaning": "课程；全部课程",
+      "example": "The school updated its curriculum to include digital literacy.",
+      "example_cn": "学校更新了课程，加入了数字素养内容。"
+    },
+    {
+      "word": "seminar",
+      "phonetic": "/ˈsemɪnɑː(r)/",
+      "pos": "n.",
+      "meaning": "研讨会；专题讨论课",
+      "example": "Our seminar discusses environmental policy every Thursday afternoon.",
+      "example_cn": "我们的研讨课每周四下午讨论环境政策。"
+    },
+    {
+      "word": "thesis",
+      "phonetic": "/ˈθiːsɪs/",
+      "pos": "n.",
+      "meaning": "论文；论点",
+      "example": "He is writing his thesis on urban transportation in China.",
+      "example_cn": "他正在写一篇关于中国城市交通的论文。"
+    },
+    {
+      "word": "citation",
+      "phonetic": "/saɪˈteɪʃn/",
+      "pos": "n.",
+      "meaning": "引用；引文",
+      "example": "Every quotation in your essay needs a proper citation.",
+      "example_cn": "你文章中的每一处引文都需要规范标注。"
+    },
+    {
+      "word": "plagiarize",
+      "phonetic": "/ˈpleɪdʒəraɪz/",
+      "pos": "v.",
+      "meaning": "抄袭；剽窃",
+      "example": "Students who plagiarize may be dismissed from the university.",
+      "example_cn": "抄袭的学生可能被学校开除。"
+    },
+    {
+      "word": "diligent",
+      "phonetic": "/ˈdɪlɪdʒənt/",
+      "pos": "adj.",
+      "meaning": "勤奋的；勤勉的",
+      "example": "A diligent learner reviews mistakes instead of ignoring them.",
+      "example_cn": "勤奋的学习者会复习错误而不是忽视它们。"
+    },
+    {
+      "word": "memorize",
+      "phonetic": "/ˈmeməraɪz/",
+      "pos": "v.",
+      "meaning": "记忆；记住",
+      "example": "It is harder to memorize words without reading them in context.",
+      "example_cn": "不在语境中阅读的话，单词更难记住。"
+    },
+    {
+      "word": "comprehend",
+      "phonetic": "/ˌkɒmprɪˈhend/",
+      "pos": "v.",
+      "meaning": "理解；领会",
+      "example": "Few students fully comprehend the theory on their first reading.",
+      "example_cn": "很少有学生第一遍就能完全理解这个理论。"
+    },
+    {
+      "word": "outline",
+      "phonetic": "/ˈaʊtlaɪn/",
+      "pos": "n.",
+      "meaning": "提纲；概要",
+      "example": "Write an outline before you start the first draft of your essay.",
+      "example_cn": "在动笔写初稿之前先列一个提纲。"
+    },
+    {
+      "word": "revise",
+      "phonetic": "/rɪˈvaɪz/",
+      "pos": "v.",
+      "meaning": "修改；复习",
+      "example": "She revised her paper three times before submitting it.",
+      "example_cn": "她在提交之前把论文修改了三遍。"
+    },
+    {
+      "word": "submit",
+      "phonetic": "/səbˈmɪt/",
+      "pos": "v.",
+      "meaning": "提交；呈递",
+      "example": "You must submit the application before the deadline next Monday.",
+      "example_cn": "你必须在下周一截止日期之前提交申请。"
+    },
+    {
+      "word": "enroll",
+      "phonetic": "/ɪnˈrəʊl/",
+      "pos": "v.",
+      "meaning": "注册；入学",
+      "example": "More students enroll in online courses than five years ago.",
+      "example_cn": "报名在线课程的学生比五年前更多。"
+    },
+    {
+      "word": "tuition",
+      "phonetic": "/ˈtjuːʃn/",
+      "pos": "n.",
+      "meaning": "学费；教学",
+      "example": "Rising tuition forces some families to take out loans.",
+      "example_cn": "不断上涨的学费迫使一些家庭申请贷款。"
+    },
+    {
+      "word": "scholarship",
+      "phonetic": "/ˈskɒləʃɪp/",
+      "pos": "n.",
+      "meaning": "奖学金；学问",
+      "example": "He won a scholarship to study abroad for two years.",
+      "example_cn": "他获得奖学金出国学习两年。"
+    },
+    {
+      "word": "undergraduate",
+      "phonetic": "/ˌʌndəˈɡrædʒuət/",
+      "pos": "n.",
+      "meaning": "本科生",
+      "example": "Most undergraduates work on a group project in their final year.",
+      "example_cn": "大多数本科生在毕业年级会完成一个小组项目。"
+    },
+    {
+      "word": "discipline",
+      "phonetic": "/ˈdɪsəplɪn/",
+      "pos": "n.",
+      "meaning": "学科；纪律",
+      "example": "Sociology is a discipline that draws on many other fields.",
+      "example_cn": "社会学是一门借鉴诸多其他领域的学科。"
+    },
+    {
+      "word": "faculty",
+      "phonetic": "/ˈfæklti/",
+      "pos": "n.",
+      "meaning": "全体教员；学院",
+      "example": "The faculty meets each month to discuss course design.",
+      "example_cn": "全体教师每月开会讨论课程设计。"
+    },
+    {
+      "word": "hypothesis",
+      "phonetic": "/haɪˈpɒθəsɪs/",
+      "pos": "n.",
+      "meaning": "假设；假说",
+      "example": "The experiment was designed to test a simple hypothesis.",
+      "example_cn": "这个实验旨在检验一个简单的假设。"
+    },
+    {
+      "word": "evidence",
+      "phonetic": "/ˈevɪdəns/",
+      "pos": "n.",
+      "meaning": "证据；证据材料",
+      "example": "There is strong evidence that sleep improves memory.",
+      "example_cn": "有充分的证据表明睡眠能改善记忆力。"
+    },
+    {
+      "word": "phenomenon",
+      "phonetic": "/fəˈnɒmɪnən/",
+      "pos": "n.",
+      "meaning": "现象；非凡的人或事",
+      "example": "Urban heat is a phenomenon affecting many large cities.",
+      "example_cn": "城市热岛是影响许多大城市的现象。"
+    },
+    {
+      "word": "analyze",
+      "phonetic": "/ˈænəlaɪz/",
+      "pos": "v.",
+      "meaning": "分析；解析",
+      "example": "We analyzed the survey results with statistical software.",
+      "example_cn": "我们用统计软件分析了调查结果。"
+    },
+    {
+      "word": "interpret",
+      "phonetic": "/ɪnˈtɜːprɪt/",
+      "pos": "v.",
+      "meaning": "解释；理解",
+      "example": "Different readers may interpret the same poem in various ways.",
+      "example_cn": "不同的读者可能以多种方式理解同一首诗。"
+    },
+    {
+      "word": "summarize",
+      "phonetic": "/ˈsʌməraɪz/",
+      "pos": "v.",
+      "meaning": "总结；概述",
+      "example": "Please summarize the article in about one hundred words.",
+      "example_cn": "请用大约一百词概述这篇文章。"
+    },
+    {
+      "word": "illustrate",
+      "phonetic": "/ˈɪləstreɪt/",
+      "pos": "v.",
+      "meaning": "说明；举例说明",
+      "example": "The teacher illustrated the concept with a familiar example.",
+      "example_cn": "老师用一个常见的例子来说明这个概念。"
+    },
+    {
+      "word": "demonstrate",
+      "phonetic": "/ˈdemənstreɪt/",
+      "pos": "v.",
+      "meaning": "证明；演示",
+      "example": "The data demonstrate a clear link between income and health.",
+      "example_cn": "这些数据证明收入与健康之间存在明显联系。"
+    },
+    {
+      "word": "derive",
+      "phonetic": "/dɪˈraɪv/",
+      "pos": "v.",
+      "meaning": "获得；源于",
+      "example": "Many English words derive from Latin and Greek roots.",
+      "example_cn": "许多英语单词源于拉丁语和希腊语词根。"
+    },
+    {
+      "word": "indicate",
+      "phonetic": "/ˈɪndɪkeɪt/",
+      "pos": "v.",
+      "meaning": "表明；指出",
+      "example": "Recent figures indicate that housing prices are falling slightly.",
+      "example_cn": "最近的数据表明房价略有下降。"
+    },
+    {
+      "word": "imply",
+      "phonetic": "/ɪmˈplaɪ/",
+      "pos": "v.",
+      "meaning": "暗示；意味着",
+      "example": "His silence seemed to imply disagreement with the plan.",
+      "example_cn": "他的沉默似乎暗示对这个计划的不同意。"
+    },
+    {
+      "word": "infer",
+      "phonetic": "/ɪnˈfɜː(r)/",
+      "pos": "v.",
+      "meaning": "推断；推知",
+      "example": "Readers often infer a character's motive from small details.",
+      "example_cn": "读者常常从细节推断人物的动机。"
+    },
+    {
+      "word": "survey",
+      "phonetic": "/ˈsɜːveɪ/",
+      "pos": "n.",
+      "meaning": "调查；问卷",
+      "example": "A recent survey of college students found widespread sleep loss.",
+      "example_cn": "一项针对大学生近期调查显示普遍存在睡眠不足。"
+    },
+    {
+      "word": "assignment",
+      "phonetic": "/əˈsaɪnmənt/",
+      "pos": "n.",
+      "meaning": "作业；任务",
+      "example": "The professor postponed the assignment by one week.",
+      "example_cn": "教授把作业推迟了一周。"
+    },
+    {
+      "word": "deadline",
+      "phonetic": "/ˈdedlaɪn/",
+      "pos": "n.",
+      "meaning": "截止日期；最后期限",
+      "example": "Missing a deadline is a common source of student anxiety.",
+      "example_cn": "错过截止日期是学生焦虑的常见原因。"
+    },
+    {
+      "word": "requirement",
+      "phonetic": "/rɪˈkwaɪəmənt/",
+      "pos": "n.",
+      "meaning": "要求；必要条件",
+      "example": "Speaking English fluently is not a requirement for this course.",
+      "example_cn": "流利的英语口语不是这门课的必备条件。"
+    },
+    {
+      "word": "approach",
+      "phonetic": "/əˈprəʊtʃ/",
+      "pos": "n.",
+      "meaning": "方法；途径",
+      "example": "A new approach to teaching grammar has proved quite effective.",
+      "example_cn": "一种新的语法教学方法被证明相当有效。"
+    },
+    {
+      "word": "strategy",
+      "phonetic": "/ˈstrætədʒi/",
+      "pos": "n.",
+      "meaning": "策略；战略",
+      "example": "The city announced a strategy to reduce traffic congestion.",
+      "example_cn": "该市宣布了一项缓解交通拥堵的策略。"
+    },
+    {
+      "word": "procedure",
+      "phonetic": "/prəˈsiːdʒə(r)/",
+      "pos": "n.",
+      "meaning": "程序；步骤",
+      "example": "Follow the safety procedure carefully during the laboratory experiment.",
+      "example_cn": "在实验室中要严格遵循安全程序。"
+    },
+    {
+      "word": "technique",
+      "phonetic": "/tekˈniːk/",
+      "pos": "n.",
+      "meaning": "技巧；技术",
+      "example": "Note-taking is a technique that many students never learn properly.",
+      "example_cn": "记笔记是一项很多学生从未系统学习的技巧。"
+    },
+    {
+      "word": "significant",
+      "phonetic": "/sɪɡˈnɪfɪkənt/",
+      "pos": "adj.",
+      "meaning": "重大的；显著的",
+      "example": "There has been a significant increase in online enrollment this year.",
+      "example_cn": "今年在线注册人数显著增加。"
+    },
+    {
+      "word": "essential",
+      "phonetic": "/ɪˈsenʃl/",
+      "pos": "adj.",
+      "meaning": "必要的；本质的",
+      "example": "Regular review is essential if you want to retain new vocabulary.",
+      "example_cn": "如果想记住新词汇，定期复习是必要的。"
+    },
+    {
+      "word": "fundamental",
+      "phonetic": "/ˌfʌndəˈmentl/",
+      "pos": "adj.",
+      "meaning": "基本的；根本的",
+      "example": "Honesty is a fundamental value in both study and work.",
+      "example_cn": "诚实在学习和工作中都是一项根本价值。"
+    },
+    {
+      "word": "preliminary",
+      "phonetic": "/prɪˈlɪmɪnəri/",
+      "pos": "adj.",
+      "meaning": "初步的；预备的",
+      "example": "Preliminary results suggest the hypothesis needs further testing.",
+      "example_cn": "初步结果表明这个假设需要进一步验证。"
+    },
+    {
+      "word": "accurate",
+      "phonetic": "/ˈækjərət/",
+      "pos": "adj.",
+      "meaning": "准确的；精确的",
+      "example": "The device provides accurate measurements of air quality indoors.",
+      "example_cn": "该设备能准确测量室内空气质量的指标。"
+    },
+    {
+      "word": "precise",
+      "phonetic": "/prɪˈsaɪs/",
+      "pos": "adj.",
+      "meaning": "精确的；确切的",
+      "example": "Scientists use precise language to describe their experimental methods.",
+      "example_cn": "科学家用精确的语言描述他们的实验方法。"
+    },
+    {
+      "word": "vague",
+      "phonetic": "/veɪɡ/",
+      "pos": "adj.",
+      "meaning": "模糊的；含糊的",
+      "example": "His answer was vague, so we still do not know the facts.",
+      "example_cn": "他的回答很含糊，所以我们仍不清楚事实。"
+    },
+    {
+      "word": "consistent",
+      "phonetic": "/kənˈsɪstənt/",
+      "pos": "adj.",
+      "meaning": "一致的；始终如一的",
+      "example": "Her performance has been consistent throughout the whole semester.",
+      "example_cn": "她整个学期的表现一直都很稳定。"
+    },
+    {
+      "word": "contradictory",
+      "phonetic": "/ˌkɒntrəˈdɪktəri/",
+      "pos": "adj.",
+      "meaning": "矛盾的；对立的",
+      "example": "The two reports give contradictory information about the same event.",
+      "example_cn": "这两份报告就同一事件给出了相互矛盾的信息。"
+    },
+    {
+      "word": "relevant",
+      "phonetic": "/ˈreləvənt/",
+      "pos": "adj.",
+      "meaning": "相关的；切题的",
+      "example": "Only include sources that are relevant to your research question.",
+      "example_cn": "只引用与你研究问题相关的资料。"
+    },
+    {
+      "word": "feasible",
+      "phonetic": "/ˈfiːzəbl/",
+      "pos": "adj.",
+      "meaning": "可行的；行得通的",
+      "example": "The committee studied whether a four-day week is feasible.",
+      "example_cn": "委员会研究了四天工作制是否可行。"
+    },
+    {
+      "word": "theoretical",
+      "phonetic": "/ˌθɪəˈretɪkl/",
+      "pos": "adj.",
+      "meaning": "理论的；假设的",
+      "example": "His knowledge is theoretical rather than based on real practice.",
+      "example_cn": "他的知识偏向理论，而非基于实际经验。"
+    },
+    {
+      "word": "practical",
+      "phonetic": "/ˈpræktɪkl/",
+      "pos": "adj.",
+      "meaning": "实际的；实用的",
+      "example": "The internship gave her practical skills that courses cannot teach.",
+      "example_cn": "实习给了她课堂无法教授的实用技能。"
+    },
+    {
+      "word": "inevitable",
+      "phonetic": "/ɪnˈevɪtəbl/",
+      "pos": "adj.",
+      "meaning": "不可避免的；必然发生的",
+      "example": "Change is inevitable in any city that keeps growing fast.",
+      "example_cn": "在任何持续快速发展的城市，变化都是不可避免的。"
+    },
+    {
+      "word": "statistics",
+      "phonetic": "/stəˈtɪstɪks/",
+      "pos": "n.",
+      "meaning": "统计学；统计数据",
+      "example": "Many social science students take statistics as a required course.",
+      "example_cn": "许多社科专业学生把统计学作为必修课。"
+    },
+    {
+      "word": "academic",
+      "phonetic": "/ˌækəˈdemɪk/",
+      "pos": "adj.",
+      "meaning": "学术的；学业的",
+      "example": "His academic record helped him gain admission to a top programme.",
+      "example_cn": "优异的学业成绩帮助他进入了顶尖项目。"
+    },
+    {
+      "word": "conclusion",
+      "phonetic": "/kənˈkluːʒn/",
+      "pos": "n.",
+      "meaning": "结论；结尾",
+      "example": "The researchers drew the same conclusion from independent experiments.",
+      "example_cn": "研究人员从独立实验中得出了相同的结论。"
+    },
+    {
+      "word": "assumption",
+      "phonetic": "/əˈsʌmpʃn/",
+      "pos": "n.",
+      "meaning": "假设；假定",
+      "example": "The model rests on the assumption that people act rationally.",
+      "example_cn": "该模型建立在人会理性行事这一假设之上。"
+    },
+    {
+      "word": "employ",
+      "phonetic": "/ɪmˈplɔɪ/",
+      "pos": "v.",
+      "meaning": "雇用；使用",
+      "example": "Local firms employ hundreds of graduates every year.",
+      "example_cn": "本地企业每年雇用数百名毕业生。"
+    },
+    {
+      "word": "recruit",
+      "phonetic": "/rɪˈkruːt/",
+      "pos": "v.",
+      "meaning": "招募；吸收",
+      "example": "The company plans to recruit more engineers from overseas.",
+      "example_cn": "公司计划从海外招募更多工程师。"
+    },
+    {
+      "word": "applicant",
+      "phonetic": "/ˈæplɪkənt/",
+      "pos": "n.",
+      "meaning": "申请人；求职者",
+      "example": "Each applicant must provide a resume and two references.",
+      "example_cn": "每位申请人必须提交简历和两位推荐人信息。"
+    },
+    {
+      "word": "candidate",
+      "phonetic": "/ˈkændɪdət/",
+      "pos": "n.",
+      "meaning": "候选人；应试者",
+      "example": "She is the strongest candidate for the management position.",
+      "example_cn": "她是管理职位最有力的候选人。"
+    },
+    {
+      "word": "resume",
+      "phonetic": "/ˈrezjʊmeɪ/",
+      "pos": "n.",
+      "meaning": "简历；摘要",
+      "example": "Keep your resume to one page when you have little experience.",
+      "example_cn": "经验不多时，把简历控制在一页之内。"
+    },
+    {
+      "word": "qualification",
+      "phonetic": "/ˌkwɒlɪfɪˈkeɪʃn/",
+      "pos": "n.",
+      "meaning": "资格；学历",
+      "example": "A teaching qualification is required for this position.",
+      "example_cn": "这个职位需要具备教师资格。"
+    },
+    {
+      "word": "promotion",
+      "phonetic": "/prəˈməʊʃn/",
+      "pos": "n.",
+      "meaning": "晋升；促销",
+      "example": "He earned a promotion after managing three successful projects.",
+      "example_cn": "在管理三个成功项目之后他获得了晋升。"
+    },
+    {
+      "word": "salary",
+      "phonetic": "/ˈsæləri/",
+      "pos": "n.",
+      "meaning": "薪水；工资",
+      "example": "A starting salary is rarely enough to rent a flat alone.",
+      "example_cn": "起薪往往不足以独自租下一套公寓。"
+    },
+    {
+      "word": "income",
+      "phonetic": "/ˈɪnkʌm/",
+      "pos": "n.",
+      "meaning": "收入；所得",
+      "example": "Household income has grown more slowly than housing prices.",
+      "example_cn": "家庭收入增长慢于房价上涨。"
+    },
+    {
+      "word": "colleague",
+      "phonetic": "/ˈkɒliːɡ/",
+      "pos": "n.",
+      "meaning": "同事；同僚",
+      "example": "My colleagues and I share notes after every meeting.",
+      "example_cn": "每次开会后我都会和同事共享笔记。"
+    },
+    {
+      "word": "supervisor",
+      "phonetic": "/ˈsuːpəvaɪzə(r)/",
+      "pos": "n.",
+      "meaning": "主管；指导教师",
+      "example": "Your thesis supervisor can recommend relevant research papers.",
+      "example_cn": "你的论文导师可以推荐相关研究论文。"
+    },
+    {
+      "word": "executive",
+      "phonetic": "/ɪɡˈzekjətɪv/",
+      "pos": "n.",
+      "meaning": "高管；行政人员",
+      "example": "Senior executives usually decide the company's long-term direction.",
+      "example_cn": "高级管理人员通常决定公司的长期方向。"
+    },
+    {
+      "word": "entrepreneur",
+      "phonetic": "/ˌɒntrəprəˈnɜː(r)/",
+      "pos": "n.",
+      "meaning": "企业家；创业者",
+      "example": "The entrepreneur started her first company while still at university.",
+      "example_cn": "这位企业家在大学期间创办了第一家公司。"
+    },
+    {
+      "word": "occupation",
+      "phonetic": "/ˌɒkjuˈpeɪʃn/",
+      "pos": "n.",
+      "meaning": "职业；占领",
+      "example": "The form asks you to state your occupation and years of experience.",
+      "example_cn": "表格要求你填写职业和工作年限。"
+    },
+    {
+      "word": "profession",
+      "phonetic": "/prəˈfeʃn/",
+      "pos": "n.",
+      "meaning": "职业；行业",
+      "example": "Nursing is a profession that demands both skill and patience.",
+      "example_cn": "护理是既需要技术又需要耐心的职业。"
+    },
+    {
+      "word": "career",
+      "phonetic": "/kəˈrɪə(r)/",
+      "pos": "n.",
+      "meaning": "职业生涯；事业",
+      "example": "Many young people change careers several times in their lives.",
+      "example_cn": "许多人在一生中会转换几次职业方向。"
+    },
+    {
+      "word": "internship",
+      "phonetic": "/ˈɪntɜːnʃɪp/",
+      "pos": "n.",
+      "meaning": "实习期；实习岗位",
+      "example": "She accepted a summer internship at a design studio.",
+      "example_cn": "她接受了一家设计工作室的暑期实习。"
+    },
+    {
+      "word": "vacancy",
+      "phonetic": "/ˈveɪkənsi/",
+      "pos": "n.",
+      "meaning": "空缺；空职",
+      "example": "The department has two vacancies for research assistants.",
+      "example_cn": "系里有两个研究助理的空缺职位。"
+    },
+    {
+      "word": "appoint",
+      "phonetic": "/əˈpɔɪnt/",
+      "pos": "v.",
+      "meaning": "任命；委派",
+      "example": "The board appointed a new director to lead the project.",
+      "example_cn": "董事会任命了一位新总监来领导这个项目。"
+    },
+    {
+      "word": "dismiss",
+      "phonetic": "/dɪsˈmɪs/",
+      "pos": "v.",
+      "meaning": "解雇；驳回",
+      "example": "The company dismissed several staff after the merger.",
+      "example_cn": "并购之后公司解雇了几名员工。"
+    },
+    {
+      "word": "resign",
+      "phonetic": "/rɪˈzaɪn/",
+      "pos": "v.",
+      "meaning": "辞职；辞去",
+      "example": "He resigned from his post to finish his doctoral studies.",
+      "example_cn": "他辞职以完成自己的博士学业。"
+    },
+    {
+      "word": "negotiate",
+      "phonetic": "/nɪˈɡəʊʃieɪt/",
+      "pos": "v.",
+      "meaning": "谈判；协商",
+      "example": "Workers negotiated a shorter week without losing pay.",
+      "example_cn": "工人协商争取到了更短的工作周且薪资不减。"
+    },
+    {
+      "word": "delegate",
+      "phonetic": "/ˈdelɪɡət/",
+      "pos": "v.",
+      "meaning": "授权；委派",
+      "example": "Good managers learn to delegate tasks rather than do everything.",
+      "example_cn": "优秀的管理者学会分派任务而不是事必躬亲。"
+    },
+    {
+      "word": "collaborate",
+      "phonetic": "/kəˈlæbəreɪt/",
+      "pos": "v.",
+      "meaning": "合作；协作",
+      "example": "Two departments collaborated on the environmental research project.",
+      "example_cn": "两个部门在这个环境研究项目上开展合作。"
+    },
+    {
+      "word": "accomplish",
+      "phonetic": "/əˈkʌmplɪʃ/",
+      "pos": "v.",
+      "meaning": "完成；实现",
+      "example": "The team accomplished more than the plan originally required.",
+      "example_cn": "团队完成的工作超出原计划的要求。"
+    },
+    {
+      "word": "implement",
+      "phonetic": "/ˈɪmplɪment/",
+      "pos": "v.",
+      "meaning": "实施；执行",
+      "example": "The school will implement the new policy next semester.",
+      "example_cn": "学校将于下学期实施这项新政策。"
+    },
+    {
+      "word": "efficient",
+      "phonetic": "/ɪˈfɪʃnt/",
+      "pos": "adj.",
+      "meaning": "高效的；效率高的",
+      "example": "A more efficient process saves the company both time and money.",
+      "example_cn": "更高效的流程能为公司节省时间和金钱。"
+    },
+    {
+      "word": "effective",
+      "phonetic": "/ɪˈfektɪv/",
+      "pos": "adj.",
+      "meaning": "有效的；产生实效的",
+      "example": "Advertising is an effective way to reach young consumers online.",
+      "example_cn": "广告是在网上触达年轻消费者的有效方式。"
+    },
+    {
+      "word": "reward",
+      "phonetic": "/rɪˈwɔːd/",
+      "pos": "n.",
+      "meaning": "奖励；回报",
+      "example": "Employees receive a cash reward for every useful suggestion.",
+      "example_cn": "员工每提出一条有用建议都会获得现金奖励。"
+    },
+    {
+      "word": "retire",
+      "phonetic": "/rɪˈtaɪə(r)/",
+      "pos": "v.",
+      "meaning": "退休；退出",
+      "example": "Some teachers retire early because of heavy workloads and stress.",
+      "example_cn": "一些教师因工作量大和压力大而提前退休。"
+    },
+    {
+      "word": "redundant",
+      "phonetic": "/rɪˈdʌndənt/",
+      "pos": "adj.",
+      "meaning": "多余的；被裁减的",
+      "example": "Automation has made many routine office jobs redundant.",
+      "example_cn": "自动化使许多常规的办公室岗位变得多余。"
+    },
+    {
+      "word": "policy",
+      "phonetic": "/ˈpɒləsi/",
+      "pos": "n.",
+      "meaning": "政策；方针",
+      "example": "The government changed its housing policy after the election.",
+      "example_cn": "政府在大选之后改变了住房政策。"
+    },
+    {
+      "word": "politics",
+      "phonetic": "/ˈpɒlətɪks/",
+      "pos": "n.",
+      "meaning": "政治；政治活动",
+      "example": "Many students follow politics closely during an election year.",
+      "example_cn": "大选之年许多学生会密切关注政治动态。"
+    },
+    {
+      "word": "governance",
+      "phonetic": "/ˈɡʌvənəns/",
+      "pos": "n.",
+      "meaning": "治理；管理方式",
+      "example": "Better corporate governance helps restore the confidence of investors.",
+      "example_cn": "更好的公司治理有助于恢复投资者的信心。"
+    },
+    {
+      "word": "authority",
+      "phonetic": "/ɔːˈθɒrəti/",
+      "pos": "n.",
+      "meaning": "当局；权威",
+      "example": "Local authorities have closed the road for further checks.",
+      "example_cn": "地方当局已封闭这条道路以作进一步检查。"
+    },
+    {
+      "word": "regulation",
+      "phonetic": "/ˌreɡjuˈleɪʃn/",
+      "pos": "n.",
+      "meaning": "规章；管理条例",
+      "example": "New regulations require food sellers to state ingredients clearly.",
+      "example_cn": "新规要求食品销售者清晰标示配料成分。"
+    },
+    {
+      "word": "legislation",
+      "phonetic": "/ˌledʒɪsˈleɪʃn/",
+      "pos": "n.",
+      "meaning": "立法；法律",
+      "example": "The law on data privacy took effect after lengthy legislation.",
+      "example_cn": "经过长期立法，数据隐私法开始生效。"
+    },
+    {
+      "word": "legal",
+      "phonetic": "/ˈliːɡl/",
+      "pos": "adj.",
+      "meaning": "法律的；合法的",
+      "example": "Young people should receive basic education about legal rights.",
+      "example_cn": "年轻人应当接受关于法定权利的基础教育。"
+    },
+    {
+      "word": "judicial",
+      "phonetic": "/dʒuːˈdɪʃl/",
+      "pos": "adj.",
+      "meaning": "司法的；法庭的",
+      "example": "The ruling sparked a heated debate about judicial independence.",
+      "example_cn": "这项裁决引发了关于司法独立的激烈辩论。"
+    },
+    {
+      "word": "constitution",
+      "phonetic": "/ˌkɒnstɪˈtjuːʃn/",
+      "pos": "n.",
+      "meaning": "宪法；体制",
+      "example": "The constitution guarantees freedom of speech for all citizens.",
+      "example_cn": "宪法保障所有公民的言论自由。"
+    },
+    {
+      "word": "election",
+      "phonetic": "/ɪˈlekʃn/",
+      "pos": "n.",
+      "meaning": "选举；当选",
+      "example": "Voter turnout rose sharply in last year's local election.",
+      "example_cn": "去年地方选举的投票率急剧上升。"
+    },
+    {
+      "word": "democracy",
+      "phonetic": "/dɪˈmɒkrəsi/",
+      "pos": "n.",
+      "meaning": "民主；民主制度",
+      "example": "A healthy democracy depends on an informed citizenry.",
+      "example_cn": "健全的民主制度取决于有见识的公民。"
+    },
+    {
+      "word": "liberty",
+      "phonetic": "/ˈlɪbəti/",
+      "pos": "n.",
+      "meaning": "自由；自主",
+      "example": "Citizens debated how much liberty to grant new online platforms.",
+      "example_cn": "公民们辩论应给予新网络平台多大自由度。"
+    },
+    {
+      "word": "equality",
+      "phonetic": "/ɪˈkwɒləti/",
+      "pos": "n.",
+      "meaning": "平等；相等",
+      "example": "The campaign promotes equality of educational opportunity in rural areas.",
+      "example_cn": "这项活动倡导农村地区教育机会的平等。"
+    },
+    {
+      "word": "justice",
+      "phonetic": "/ˈdʒʌstɪs/",
+      "pos": "n.",
+      "meaning": "公正；司法",
+      "example": "Many people doubt that the poor can always obtain justice.",
+      "example_cn": "许多人怀疑穷人是否总能得到公正对待。"
+    },
+    {
+      "word": "poverty",
+      "phonetic": "/ˈpɒvəti/",
+      "pos": "n.",
+      "meaning": "贫穷；贫困",
+      "example": "Improved access to education has helped reduce rural poverty.",
+      "example_cn": "改善教育机会帮助减少了农村贫困。"
+    },
+    {
+      "word": "welfare",
+      "phonetic": "/ˈwelfeə(r)/",
+      "pos": "n.",
+      "meaning": "福利；幸福",
+      "example": "The city increased welfare spending for unemployed families.",
+      "example_cn": "该市增加了针对失业家庭的福利支出。"
+    },
+    {
+      "word": "immigration",
+      "phonetic": "/ˌɪmɪˈɡreɪʃn/",
+      "pos": "n.",
+      "meaning": "移民入境；移居",
+      "example": "Immigration has changed the cultural makeup of many cities.",
+      "example_cn": "移民改变了许多城市的文化构成。"
+    },
+    {
+      "word": "population",
+      "phonetic": "/ˌpɒpjuˈleɪʃn/",
+      "pos": "n.",
+      "meaning": "人口；人群",
+      "example": "The ageing population will place pressure on public hospitals.",
+      "example_cn": "人口老龄化将给公立医院带来压力。"
+    },
+    {
+      "word": "census",
+      "phonetic": "/ˈsensəs/",
+      "pos": "n.",
+      "meaning": "人口普查",
+      "example": "The latest census recorded a decline in average household size.",
+      "example_cn": "最新人口普查显示平均家庭规模有所缩小。"
+    },
+    {
+      "word": "infrastructure",
+      "phonetic": "/ˈɪnfrəstrʌktʃə(r)/",
+      "pos": "n.",
+      "meaning": "基础设施；基础建设",
+      "example": "Spending on public transport slowly improves urban infrastructure.",
+      "example_cn": "对公共交通的投入逐步改善了城市基础设施。"
+    },
+    {
+      "word": "facility",
+      "phonetic": "/fəˈsɪləti/",
+      "pos": "n.",
+      "meaning": "设施；场所",
+      "example": "The campus has sports facilities open to all students.",
+      "example_cn": "校园里的体育设施向所有学生开放。"
+    },
+    {
+      "word": "urban",
+      "phonetic": "/ˈɜːbən/",
+      "pos": "adj.",
+      "meaning": "城市的；都市的",
+      "example": "Urban air pollution remains a serious public health concern.",
+      "example_cn": "城市空气污染仍是严重的公共健康问题。"
+    },
+    {
+      "word": "rural",
+      "phonetic": "/ˈrʊərəl/",
+      "pos": "adj.",
+      "meaning": "农村的；乡下的",
+      "example": "Many rural schools still lack reliable internet access.",
+      "example_cn": "许多农村学校仍然缺乏可靠的网络接入。"
+    },
+    {
+      "word": "commute",
+      "phonetic": "/kəˈmjuːt/",
+      "pos": "v.",
+      "meaning": "通勤；乘车往返",
+      "example": "She commutes forty minutes each way to her office downtown.",
+      "example_cn": "她每天单程通勤四十分钟去市区的公司。"
+    },
+    {
+      "word": "minority",
+      "phonetic": "/maɪˈnɒrəti/",
+      "pos": "n.",
+      "meaning": "少数；少数群体",
+      "example": "Only a small minority of students disagreed with the reform.",
+      "example_cn": "只有极少数学生反对这项改革。"
+    },
+    {
+      "word": "majority",
+      "phonetic": "/məˈdʒɒrəti/",
+      "pos": "n.",
+      "meaning": "大多数；多数",
+      "example": "The majority of respondents wanted shorter working hours.",
+      "example_cn": "大多数受访者希望缩短工作时间。"
+    },
+    {
+      "word": "generation",
+      "phonetic": "/ˌdʒenəˈreɪʃn/",
+      "pos": "n.",
+      "meaning": "一代人；一代",
+      "example": "Younger generations rely heavily on smartphones for daily information.",
+      "example_cn": "年轻一代获取日常信息高度依赖智能手机。"
+    },
+    {
+      "word": "elderly",
+      "phonetic": "/ˈeldəli/",
+      "pos": "adj.",
+      "meaning": "年长的；上了年纪的",
+      "example": "Volunteers visit elderly residents who live alone nearby.",
+      "example_cn": "志愿者们去看望附近独居的老年居民。"
+    },
+    {
+      "word": "stereotype",
+      "phonetic": "/ˈsteriətaɪp/",
+      "pos": "n.",
+      "meaning": "刻板印象；成见",
+      "example": "The film challenges common stereotypes about working mothers.",
+      "example_cn": "这部电影挑战了关于职场母亲的常见刻板印象。"
+    },
+    {
+      "word": "discrimination",
+      "phonetic": "/dɪˌskrɪmɪˈneɪʃn/",
+      "pos": "n.",
+      "meaning": "歧视；区别对待",
+      "example": "Laws forbid discrimination against applicants because of their age.",
+      "example_cn": "法律禁止因年龄歧视求职者。"
+    },
+    {
+      "word": "prejudice",
+      "phonetic": "/ˈpredʒudɪs/",
+      "pos": "n.",
+      "meaning": "偏见；成见",
+      "example": "Travelling abroad can weaken prejudice built purely from hearsay.",
+      "example_cn": "出国旅行能削弱纯粹由道听途说形成的偏见。"
+    },
+    {
+      "word": "bias",
+      "phonetic": "/ˈbaɪəs/",
+      "pos": "n.",
+      "meaning": "偏见；偏向",
+      "example": "Researchers must check their data for unconscious bias.",
+      "example_cn": "研究人员必须检查数据中是否存在无意识的偏见。"
+    },
+    {
+      "word": "controversy",
+      "phonetic": "/ˈkɒntrəvɜːsi/",
+      "pos": "n.",
+      "meaning": "争议；争论",
+      "example": "The plan to extend the airport caused public controversy.",
+      "example_cn": "扩建机场的计划引发了公众争议。"
+    },
+    {
+      "word": "convention",
+      "phonetic": "/kənˈvenʃn/",
+      "pos": "n.",
+      "meaning": "惯例；大会",
+      "example": "By convention, the chairperson opens every annual meeting.",
+      "example_cn": "按照惯例，主席主持每次年会开幕。"
+    },
+    {
+      "word": "heritage",
+      "phonetic": "/ˈherɪtɪdʒ/",
+      "pos": "n.",
+      "meaning": "遗产；传统",
+      "example": "The old town is protected as part of the national heritage.",
+      "example_cn": "这座古镇作为国家遗产的一部分受到保护。"
+    },
+    {
+      "word": "reform",
+      "phonetic": "/rɪˈfɔːm/",
+      "pos": "n.",
+      "meaning": "改革；改良",
+      "example": "The education reform aims to reduce exam pressure on children.",
+      "example_cn": "这项教育改革旨在减轻儿童的考试压力。"
+    },
+    {
+      "word": "stability",
+      "phonetic": "/stəˈbɪləti/",
+      "pos": "n.",
+      "meaning": "稳定；稳定性",
+      "example": "Frequent changes in management threatened the company's stability.",
+      "example_cn": "管理层频繁变动威胁着公司的稳定。"
+    },
+    {
+      "word": "conflict",
+      "phonetic": "/ˈkɒnflɪkt/",
+      "pos": "n.",
+      "meaning": "冲突；矛盾",
+      "example": "The schedule created a conflict between two compulsory courses.",
+      "example_cn": "课程表在两门必修课之间造成了时间冲突。"
+    },
+    {
+      "word": "protest",
+      "phonetic": "/ˈprəʊtest/",
+      "pos": "n.",
+      "meaning": "抗议；反对",
+      "example": "Hundreds of residents joined the protest against the new road.",
+      "example_cn": "数百名居民参加了反对修建新路的抗议。"
+    },
+    {
+      "word": "petition",
+      "phonetic": "/pəˈtɪʃn/",
+      "pos": "n.",
+      "meaning": "请愿书；诉状",
+      "example": "Students signed a petition demanding better library opening hours.",
+      "example_cn": "学生们在一份请愿书上签名，要求延长图书馆开放时间。"
+    },
+    {
+      "word": "enforce",
+      "phonetic": "/ɪnˈfɔːs/",
+      "pos": "v.",
+      "meaning": "执行；强制推行",
+      "example": "The city struggles to enforce its ban on plastic bags.",
+      "example_cn": "该市在强制执行塑料袋禁令方面面临困难。"
+    },
+    {
+      "word": "prohibit",
+      "phonetic": "/prəˈhɪbɪt/",
+      "pos": "v.",
+      "meaning": "禁止；阻止",
+      "example": "Campus rules prohibit smoking in all indoor public areas.",
+      "example_cn": "校规禁止在所有室内公共场所吸烟。"
+    },
+    {
+      "word": "impose",
+      "phonetic": "/ɪmˈpəʊz/",
+      "pos": "v.",
+      "meaning": "强加；征收",
+      "example": "The government imposed a higher tax on imported cars.",
+      "example_cn": "政府对进口汽车征收了更高的税。"
+    },
+    {
+      "word": "abolish",
+      "phonetic": "/əˈbɒlɪʃ/",
+      "pos": "v.",
+      "meaning": "废除；废止",
+      "example": "The campaign urged the university to abolish compulsory evening tests.",
+      "example_cn": "该活动呼吁学校废除强制晚间测验。"
+    },
+    {
+      "word": "amend",
+      "phonetic": "/əˈmend/",
+      "pos": "v.",
+      "meaning": "修正；修订",
+      "example": "Parliament voted to amend the law on working hours.",
+      "example_cn": "议会投票表决修订工时相关法律。"
+    },
+    {
+      "word": "finance",
+      "phonetic": "/ˈfaɪnæns/",
+      "pos": "n.",
+      "meaning": "金融；财政",
+      "example": "She works in finance for a small investment firm.",
+      "example_cn": "她在一家小型投资公司从事金融工作。"
+    },
+    {
+      "word": "investment",
+      "phonetic": "/ɪnˈvestmənt/",
+      "pos": "n.",
+      "meaning": "投资；投入",
+      "example": "Education is an investment that benefits the whole society.",
+      "example_cn": "教育是一项惠及整个社会的投资。"
+    },
+    {
+      "word": "profit",
+      "phonetic": "/ˈprɒfɪt/",
+      "pos": "n.",
+      "meaning": "利润；收益",
+      "example": "The company made a large profit by exporting local goods.",
+      "example_cn": "这家公司通过出口本地商品获得了可观利润。"
+    },
+    {
+      "word": "revenue",
+      "phonetic": "/ˈrevənjuː/",
+      "pos": "n.",
+      "meaning": "收入；税收",
+      "example": "Lower sales reduced the company's annual revenue by almost a fifth.",
+      "example_cn": "销售额下降使该公司年收入减少了近五分之一。"
+    },
+    {
+      "word": "budget",
+      "phonetic": "/ˈbʌdʒɪt/",
+      "pos": "n.",
+      "meaning": "预算；预算额",
+      "example": "The students' union cut its budget for entertainment events.",
+      "example_cn": "学生会削减了娱乐活动的预算。"
+    },
+    {
+      "word": "expense",
+      "phonetic": "/ɪkˈspens/",
+      "pos": "n.",
+      "meaning": "费用；开支",
+      "example": "Travelling abroad is beyond the expense most students can afford.",
+      "example_cn": "出国旅行的费用超出了大多数学生的承受能力。"
+    },
+    {
+      "word": "consumer",
+      "phonetic": "/kənˈsjuːmə(r)/",
+      "pos": "n.",
+      "meaning": "消费者；顾客",
+      "example": "Consumer confidence fell sharply as the price of food kept rising.",
+      "example_cn": "随着食品价格持续上涨，消费者信心急剧下降。"
+    },
+    {
+      "word": "demand",
+      "phonetic": "/dɪˈmɑːnd/",
+      "pos": "n.",
+      "meaning": "需求；要求",
+      "example": "Demand for online English courses has doubled in two years.",
+      "example_cn": "两年内在线英语课程的需求翻了一番。"
+    },
+    {
+      "word": "marketing",
+      "phonetic": "/ˈmɑːkɪtɪŋ/",
+      "pos": "n.",
+      "meaning": "市场营销；销售推广",
+      "example": "Her marketing ideas helped the small brand grow quickly.",
+      "example_cn": "她的营销思路帮助这个小品牌迅速成长。"
+    },
+    {
+      "word": "rival",
+      "phonetic": "/ˈraɪvl/",
+      "pos": "n.",
+      "meaning": "竞争对手；对手",
+      "example": "Two rival firms are competing for the same group of customers.",
+      "example_cn": "两家竞争公司正在争夺同一批客户。"
+    },
+    {
+      "word": "monopoly",
+      "phonetic": "/məˈnɒpəli/",
+      "meaning": "垄断；独占",
+      "pos": "n.",
+      "example": "Regulators worry that one platform may gain a monopoly.",
+      "example_cn": "监管者担心某一平台可能形成垄断。"
+    },
+    {
+      "word": "manufacturer",
+      "phonetic": "/ˌmænjuˈfæktʃərə(r)/",
+      "pos": "n.",
+      "meaning": "制造商；生产厂家",
+      "example": "The manufacturer promised to recall all faulty products.",
+      "example_cn": "制造商承诺召回所有有缺陷的产品。"
+    },
+    {
+      "word": "production",
+      "phonetic": "/prəˈdʌkʃn/",
+      "pos": "n.",
+      "meaning": "生产；产量",
+      "example": "Factory production recovered quickly after the energy shortage.",
+      "example_cn": "能源短缺之后工厂生产迅速恢复。"
+    },
+    {
+      "word": "industry",
+      "phonetic": "/ˈɪndəstri/",
+      "pos": "n.",
+      "meaning": "工业；行业",
+      "example": "The tourism industry provides jobs for many local residents.",
+      "example_cn": "旅游业为许多当地居民提供了就业机会。"
+    },
+    {
+      "word": "commercial",
+      "phonetic": "/kəˈmɜːʃl/",
+      "pos": "adj.",
+      "meaning": "商业的；营利的",
+      "example": "The invention attracted commercial interest from several investors.",
+      "example_cn": "这项发明引起了数位投资者的商业兴趣。"
+    },
+    {
+      "word": "advertise",
+      "phonetic": "/ˈædvətaɪz/",
+      "pos": "v.",
+      "meaning": "做广告；宣传",
+      "example": "The company advertises mainly through short videos online.",
+      "example_cn": "这家公司主要通过短视频在网上做广告。"
+    },
+    {
+      "word": "inflation",
+      "phonetic": "/ɪnˈfleɪʃn/",
+      "pos": "n.",
+      "meaning": "通货膨胀；物价上涨",
+      "example": "High inflation makes everyday goods harder to afford.",
+      "example_cn": "高通货膨胀使日常商品更难以负担。"
+    },
+    {
+      "word": "recession",
+      "phonetic": "/rɪˈseʃn/",
+      "pos": "n.",
+      "meaning": "衰退；经济萧条",
+      "example": "Many small businesses closed during the long recession.",
+      "example_cn": "在长期经济衰退中，许多小企业倒闭了。"
+    },
+    {
+      "word": "debt",
+      "phonetic": "/det/",
+      "pos": "n.",
+      "meaning": "债务；欠款",
+      "example": "Graduates often carry heavy student debt for several years.",
+      "example_cn": "毕业生往往要多年承担沉重的学生债务。"
+    },
+    {
+      "word": "loan",
+      "phonetic": "/ləʊn/",
+      "pos": "n.",
+      "meaning": "贷款；借款",
+      "example": "They took out a loan to buy their first apartment.",
+      "example_cn": "他们申请了一笔贷款购买第一套公寓。"
+    },
+    {
+      "word": "mortgage",
+      "phonetic": "/ˈmɔːɡɪdʒ/",
+      "pos": "n.",
+      "meaning": "房屋抵押贷款",
+      "example": "Rising interest rates increased their monthly mortgage payment.",
+      "example_cn": "利率上升使他们的每月房贷还款额增加。"
+    },
+    {
+      "word": "globalization",
+      "phonetic": "/ˌɡləʊbəlaɪˈzeɪʃn/",
+      "pos": "n.",
+      "meaning": "全球化；全球推广",
+      "example": "Globalization has linked local factories to world markets.",
+      "example_cn": "全球化把本地工厂与世界市场联系在一起。"
+    },
+    {
+      "word": "growth",
+      "phonetic": "/ɡrəʊθ/",
+      "pos": "n.",
+      "meaning": "增长；发展",
+      "example": "Economic growth slowed but employment remained fairly steady.",
+      "example_cn": "经济增长放缓，但就业保持相对稳定。"
+    },
+    {
+      "word": "decline",
+      "phonetic": "/dɪˈklaɪn/",
+      "pos": "n.",
+      "meaning": "下降；衰退",
+      "example": "The library recorded a sharp decline in book borrowing.",
+      "example_cn": "该图书馆记录到图书借阅量急剧下降。"
+    },
+    {
+      "word": "fluctuate",
+      "phonetic": "/ˈflʌktʃueɪt/",
+      "pos": "v.",
+      "meaning": "波动；起伏不定",
+      "example": "Vegetable prices fluctuate with the season and the weather.",
+      "example_cn": "蔬菜价格随季节和天气而波动。"
+    },
+    {
+      "word": "crisis",
+      "phonetic": "/ˈkraɪsɪs/",
+      "pos": "n.",
+      "meaning": "危机；紧要关头",
+      "example": "The energy crisis forced factories to shorten working hours.",
+      "example_cn": "能源危机迫使工厂缩短工作时间。"
+    },
+    {
+      "word": "boom",
+      "phonetic": "/buːm/",
+      "pos": "n.",
+      "meaning": "繁荣期；激增",
+      "example": "The city enjoyed a construction boom in the early 2000s.",
+      "example_cn": "该市在二十一世纪初经历了建设热潮。"
+    },
+    {
+      "word": "asset",
+      "phonetic": "/ˈæset/",
+      "pos": "n.",
+      "meaning": "资产；有价值之物",
+      "example": "Bilingual ability is a valuable asset in today's job market.",
+      "example_cn": "双语能力在如今的就业市场是一笔宝贵资产。"
+    },
+    {
+      "word": "capital",
+      "phonetic": "/ˈkæpɪtl/",
+      "pos": "n.",
+      "meaning": "资本；资金",
+      "example": "The start-up raised capital from three private investors.",
+      "example_cn": "这家初创企业从三位私人投资者那里筹集了资金。"
+    },
+    {
+      "word": "resource",
+      "phonetic": "/rɪˈsɔːs/",
+      "pos": "n.",
+      "meaning": "资源；财力",
+      "example": "Poorer regions often lack the resources to treat waste properly.",
+      "example_cn": "较贫困地区常常缺乏妥善处理废弃物的资源。"
+    },
+    {
+      "word": "wealth",
+      "phonetic": "/welθ/",
+      "pos": "n.",
+      "meaning": "财富；富有",
+      "example": "The gap in wealth between regions remains a policy concern.",
+      "example_cn": "地区之间的财富差距仍是政策关注的问题。"
+    },
+    {
+      "word": "economy",
+      "phonetic": "/ɪˈkɒnəmi/",
+      "pos": "n.",
+      "meaning": "经济；节约",
+      "example": "The government wants a greener and more innovative economy.",
+      "example_cn": "政府希望建设更绿色、更具创新性的经济。"
+    },
+    {
+      "word": "digital",
+      "phonetic": "/ˈdɪdʒɪtl/",
+      "pos": "adj.",
+      "meaning": "数字的；电子的",
+      "example": "Digital tools have changed how students read and take notes.",
+      "example_cn": "数字工具改变了学生阅读和做笔记的方式。"
+    },
+    {
+      "word": "device",
+      "phonetic": "/dɪˈvaɪs/",
+      "pos": "n.",
+      "meaning": "装置；设备",
+      "example": "Each student was given a device for measuring noise levels.",
+      "example_cn": "每个学生分到一台用于测量噪声水平的设备。"
+    },
+    {
+      "word": "software",
+      "phonetic": "/ˈsɒftweə(r)/",
+      "pos": "n.",
+      "meaning": "软件；程序",
+      "example": "The team develops software that translates spoken language.",
+      "example_cn": "这个团队开发能够翻译口语的软件。"
+    },
+    {
+      "word": "artificial",
+      "phonetic": "/ˌɑːtɪˈfɪʃl/",
+      "pos": "adj.",
+      "meaning": "人造的；人工的",
+      "example": "Artificial intelligence can now draft simple news reports.",
+      "example_cn": "人工智能如今已能撰写简单的新闻报道。"
+    },
+    {
+      "word": "innovation",
+      "phonetic": "/ˌɪnəˈveɪʃn/",
+      "pos": "n.",
+      "meaning": "创新；新事物",
+      "example": "Technological innovation reduced the cost of solar panels.",
+      "example_cn": "技术创新降低了太阳能电池板的成本。"
+    },
+    {
+      "word": "breakthrough",
+      "phonetic": "/ˈbreɪkθruː/",
+      "pos": "n.",
+      "meaning": "突破；重大进展",
+      "example": "The researchers reported a breakthrough in battery design.",
+      "example_cn": "研究人员报告了电池设计方面的一项突破。"
+    },
+    {
+      "word": "algorithm",
+      "phonetic": "/ˈælɡərɪðəm/",
+      "pos": "n.",
+      "meaning": "算法；运算规则",
+      "example": "The platform's algorithm decides which videos appear first.",
+      "example_cn": "该平台的算法决定哪些视频优先显示。"
+    },
+    {
+      "word": "database",
+      "phonetic": "/ˈdeɪtəbeɪs/",
+      "pos": "n.",
+      "meaning": "数据库；资料库",
+      "example": "The library keeps a database of published dissertations.",
+      "example_cn": "图书馆保存着一份已发表学位论文的数据库。"
+    },
+    {
+      "word": "network",
+      "phonetic": "/ˈnetwɜːk/",
+      "pos": "n.",
+      "meaning": "网络；人脉",
+      "example": "Graduates often find their first job through professional networks.",
+      "example_cn": "毕业生常常通过职业人脉找到第一份工作。"
+    },
+    {
+      "word": "wireless",
+      "phonetic": "/ˈwaɪələs/",
+      "pos": "adj.",
+      "meaning": "无线的；无线电的",
+      "example": "The dormitory finally offers wireless access in every room.",
+      "example_cn": "宿舍楼终于在每个房间提供了无线网络。"
+    },
+    {
+      "word": "virtual",
+      "phonetic": "/ˈvɜːtʃuəl/",
+      "pos": "adj.",
+      "meaning": "虚拟的；模拟的",
+      "example": "Students visited a virtual museum instead of travelling abroad.",
+      "example_cn": "学生们参观了虚拟博物馆而无需出国旅行。"
+    },
+    {
+      "word": "simulate",
+      "phonetic": "/ˈsɪmjuleɪt/",
+      "pos": "v.",
+      "meaning": "模拟；仿真",
+      "example": "The software can simulate traffic flow in a growing city.",
+      "example_cn": "这款软件能够模拟发展中城市的路况流量。"
+    },
+    {
+      "word": "reliable",
+      "phonetic": "/rɪˈlaɪəbl/",
+      "pos": "adj.",
+      "meaning": "可靠的；可信的",
+      "example": "We need reliable data before changing any public policy.",
+      "example_cn": "在调整任何公共政策之前我们需要可靠的数据。"
+    },
+    {
+      "word": "sophisticated",
+      "phonetic": "/səˈfɪstɪkeɪtɪd/",
+      "pos": "adj.",
+      "meaning": "精密的；复杂的",
+      "example": "Modern factories use sophisticated equipment to check quality.",
+      "example_cn": "现代工厂使用精密设备来检测产品质量。"
+    },
+    {
+      "word": "ecosystem",
+      "phonetic": "/ˈiːkəʊsɪstəm/",
+      "pos": "n.",
+      "meaning": "生态系统；生态体系",
+      "example": "Wetlands support an ecosystem that cleans natural water.",
+      "example_cn": "湿地维系着能够净化天然水体的生态系统。"
+    },
+    {
+      "word": "pollution",
+      "phonetic": "/pəˈluːʃn/",
+      "pos": "n.",
+      "meaning": "污染；污染物",
+      "example": "Air pollution in the valley exceeded official limits again.",
+      "example_cn": "山谷里的空气污染再度超过官方限值。"
+    },
+    {
+      "word": "emission",
+      "phonetic": "/ɪˈmɪʃn/",
+      "pos": "n.",
+      "meaning": "排放；排放物",
+      "example": "Car emissions are a major source of urban air pollution.",
+      "example_cn": "汽车尾气排放是城市空气污染的主要来源。"
+    },
+    {
+      "word": "carbon",
+      "phonetic": "/ˈkɑːbən/",
+      "pos": "n.",
+      "meaning": "碳；碳元素",
+      "example": "Planting trees helps absorb carbon from the atmosphere.",
+      "example_cn": "植树有助于吸收大气中的碳。"
+    },
+    {
+      "word": "renewable",
+      "phonetic": "/rɪˈnjuːəbl/",
+      "pos": "adj.",
+      "meaning": "可再生的；可更新的",
+      "example": "Renewable energy now supplies part of the province's power.",
+      "example_cn": "可再生能源如今为该省提供了部分电力。"
+    },
+    {
+      "word": "fossil",
+      "phonetic": "/ˈfɒsl/",
+      "pos": "n.",
+      "meaning": "化石；化石燃料",
+      "example": "Burning fossil fuels releases gases that warm the climate.",
+      "example_cn": "燃烧化石燃料会释放使气候变暖的气体。"
+    },
+    {
+      "word": "conservation",
+      "phonetic": "/ˌkɒnsəˈveɪʃn/",
+      "pos": "n.",
+      "meaning": "保护；节约",
+      "example": "Water conservation is essential in the dry northern regions.",
+      "example_cn": "在干旱的北部地区，节约用水至关重要。"
+    },
+    {
+      "word": "habitat",
+      "phonetic": "/ˈhæbɪtæt/",
+      "pos": "n.",
+      "meaning": "栖息地；自然环境",
+      "example": "Cutting down forests destroys the habitat of many species.",
+      "example_cn": "砍伐森林会破坏许多物种的栖息地。"
+    },
+    {
+      "word": "species",
+      "phonetic": "/ˈspiːʃiːz/",
+      "pos": "n.",
+      "meaning": "物种；种类",
+      "example": "Scientists have identified thousands of species in this forest.",
+      "example_cn": "科学家在这片森林中已识别出数千个物种。"
+    },
+    {
+      "word": "extinct",
+      "phonetic": "/ɪkˈstɪŋkt/",
+      "pos": "adj.",
+      "meaning": "灭绝的；绝种的",
+      "example": "Several local birds became extinct as wetlands disappeared.",
+      "example_cn": "随着湿地消失，几种本地鸟类已经灭绝。"
+    },
+    {
+      "word": "wildlife",
+      "phonetic": "/ˈwaɪldlaɪf/",
+      "pos": "n.",
+      "meaning": "野生动物；野生生物",
+      "example": "Volunteers monitor wildlife along the river every spring.",
+      "example_cn": "志愿者们每年春天在河边监测野生动物。"
+    },
+    {
+      "word": "drought",
+      "phonetic": "/draʊt/",
+      "pos": "n.",
+      "meaning": "干旱；旱灾",
+      "example": "The long drought ruined harvests across the province.",
+      "example_cn": "长期干旱毁掉了全省的庄稼收成。"
+    },
+    {
+      "word": "disaster",
+      "phonetic": "/dɪˈzɑːstə(r)/",
+      "pos": "n.",
+      "meaning": "灾难；大祸",
+      "example": "Early warnings reduced the damage caused by the disaster.",
+      "example_cn": "预警减少了这场灾难造成的损失。"
+    },
+    {
+      "word": "fatal",
+      "phonetic": "/ˈfeɪtl/",
+      "pos": "adj.",
+      "meaning": "致命的；毁灭性的",
+      "example": "Errors in the report proved fatal to the company's credibility.",
+      "example_cn": "报告中的错误对公司的信誉造成了致命打击。"
+    },
+    {
+      "word": "vulnerable",
+      "phonetic": "/ˈvʌlnərəbl/",
+      "pos": "adj.",
+      "meaning": "易受伤害的；脆弱的",
+      "example": "Coastal villages are vulnerable to rising sea levels.",
+      "example_cn": "沿海村庄容易受到海平面上升的影响。"
+    },
+    {
+      "word": "climate",
+      "phonetic": "/ˈklaɪmət/",
+      "pos": "n.",
+      "meaning": "气候；氛围",
+      "example": "Summers here are hotter than the climate records suggest.",
+      "example_cn": "这里的夏天比气候记录显示的要更热。"
+    },
+    {
+      "word": "atmosphere",
+      "phonetic": "/ˈætməsfɪə(r)/",
+      "pos": "n.",
+      "meaning": "大气；气氛",
+      "example": "Gases in the atmosphere trap heat from the sun.",
+      "example_cn": "大气中的气体会留住来自太阳的热量。"
+    },
+    {
+      "word": "recycle",
+      "phonetic": "/ˌriːˈsaɪkl/",
+      "pos": "v.",
+      "meaning": "回收利用；再循环",
+      "example": "The canteen asks students to recycle bottles and paper cups.",
+      "example_cn": "食堂要求学生回收瓶子和纸杯。"
+    },
+    {
+      "word": "nuclear",
+      "phonetic": "/ˈnjuːkliə(r)/",
+      "pos": "adj.",
+      "meaning": "核的；原子能的",
+      "example": "The region obtains much of its electricity from nuclear power.",
+      "example_cn": "该地区大部分电力来自核电。"
+    },
+    {
+      "word": "congestion",
+      "phonetic": "/kənˈdʒestʃən/",
+      "pos": "n.",
+      "meaning": "拥挤；堵塞",
+      "example": "Traffic congestion costs commuters many hours each week.",
+      "example_cn": "交通拥堵使通勤者每周损失许多小时。"
+    },
+    {
+      "word": "sustainable",
+      "phonetic": "/səˈsteɪnəbl/",
+      "pos": "adj.",
+      "meaning": "可持续的；能维持的",
+      "example": "The city is seeking sustainable ways to power its growth.",
+      "example_cn": "该市正在寻找可持续的方式来为发展供电。"
+    },
+    {
+      "word": "anxiety",
+      "phonetic": "/æŋˈzaɪəti/",
+      "pos": "n.",
+      "meaning": "焦虑；担忧",
+      "example": "Exam anxiety affects even the most well-prepared students.",
+      "example_cn": "考试焦虑连准备最充分的学生也会受到影响。"
+    },
+    {
+      "word": "frustration",
+      "phonetic": "/frʌˈstreɪʃn/",
+      "pos": "n.",
+      "meaning": "挫败；沮丧",
+      "example": "She expressed frustration at the slow progress of the project.",
+      "example_cn": "她对项目进展缓慢表示沮丧。"
+    },
+    {
+      "word": "motivation",
+      "phonetic": "/ˌməʊtɪˈveɪʃn/",
+      "pos": "n.",
+      "meaning": "动机；积极性",
+      "example": "Internal motivation matters more than praise from others.",
+      "example_cn": "内在动机比他人的表扬更重要。"
+    },
+    {
+      "word": "inspire",
+      "phonetic": "/ɪnˈspaɪə(r)/",
+      "pos": "v.",
+      "meaning": "激励；启发",
+      "example": "A good teacher can inspire curiosity that lasts a lifetime.",
+      "example_cn": "好老师能激发受用一生的好奇心。"
+    },
+    {
+      "word": "confident",
+      "phonetic": "/ˈkɒnfɪdənt/",
+      "pos": "adj.",
+      "meaning": "自信的；有把握的",
+      "example": "Practising aloud made her more confident during interviews.",
+      "example_cn": "大声练习让她在面试中更加自信。"
+    },
+    {
+      "word": "personality",
+      "phonetic": "/ˌpɜːsəˈnæləti/",
+      "pos": "n.",
+      "meaning": "个性；性格",
+      "example": "Teamwork reveals personality traits that tests cannot measure.",
+      "example_cn": "团队合作能显现测试无法测量的性格特点。"
+    },
+    {
+      "word": "cognitive",
+      "phonetic": "/ˈkɒɡnətɪv/",
+      "pos": "adj.",
+      "meaning": "认知的；认识的",
+      "example": "Studies show cognitive decline may begin earlier than expected.",
+      "example_cn": "研究显示认知能力下降可能比预期更早开始。"
+    },
+    {
+      "word": "perception",
+      "phonetic": "/pəˈsepʃn/",
+      "pos": "n.",
+      "meaning": "看法；知觉",
+      "example": "Public perception of the project changed after the reports.",
+      "example_cn": "报道之后，公众对这个项目的看法发生了变化。"
+    },
+    {
+      "word": "intelligence",
+      "phonetic": "/ɪnˈtelɪdʒəns/",
+      "pos": "n.",
+      "meaning": "智力；情报",
+      "example": "Emotional intelligence helps people resolve conflicts calmly at work.",
+      "example_cn": "情商有助于人们在工作中冷静地化解冲突。"
+    },
+    {
+      "word": "resilience",
+      "phonetic": "/rɪˈzɪliəns/",
+      "pos": "n.",
+      "meaning": "韧性；恢复力",
+      "example": "Failure in early courses can build resilience for later study.",
+      "example_cn": "早期课程中的失败能为后续学习培养韧性。"
+    },
+    {
+      "word": "ambition",
+      "phonetic": "/æmˈbɪʃn/",
+      "pos": "n.",
+      "meaning": "雄心；抱负",
+      "example": "Her ambition is to design buildings that use little energy.",
+      "example_cn": "她的抱负是设计低能耗的建筑。"
+    },
+    {
+      "word": "emotion",
+      "phonetic": "/ɪˈməʊʃn/",
+      "pos": "n.",
+      "meaning": "情绪；情感",
+      "example": "Music can stir strong emotion without any words at all.",
+      "example_cn": "音乐无需歌词也能激起强烈的情感。"
+    },
+    {
+      "word": "sympathy",
+      "phonetic": "/ˈsɪmpəθi/",
+      "pos": "n.",
+      "meaning": "同情；赞同",
+      "example": "The letter expressed sympathy for families affected by the flood.",
+      "example_cn": "这封信对受洪水影响的家庭表达了同情。"
+    },
+    {
+      "word": "empathy",
+      "phonetic": "/ˈempəθi/",
+      "pos": "n.",
+      "meaning": "共情；移情",
+      "example": "Nurses need empathy as much as medical knowledge.",
+      "example_cn": "护士既需要医学知识也需要共情能力。"
+    },
+    {
+      "word": "envy",
+      "phonetic": "/ˈenvi/",
+      "pos": "n.",
+      "meaning": "羡慕；嫉妒",
+      "example": "Social media often stirs envy among young users.",
+      "example_cn": "社交媒体常常激起年轻用户的羡慕心理。"
+    },
+    {
+      "word": "overwhelm",
+      "phonetic": "/ˌəʊvəˈwelm/",
+      "pos": "v.",
+      "meaning": "使不知所措；压倒",
+      "example": "Too many tasks at once can overwhelm even careful planners.",
+      "example_cn": "同时有太多任务连细致的计划者也会不知所措。"
+    },
+    {
+      "word": "tolerate",
+      "phonetic": "/ˈtɒləreɪt/",
+      "pos": "v.",
+      "meaning": "容忍；忍受",
+      "example": "The rules do not tolerate cheating in any form.",
+      "example_cn": "规定不容忍任何形式的作弊行为。"
+    },
+    {
+      "word": "cope",
+      "phonetic": "/kəʊp/",
+      "pos": "v.",
+      "meaning": "应付；处理",
+      "example": "Students learn to cope with pressure by planning their time.",
+      "example_cn": "学生通过规划时间来学会应对压力。"
+    },
+    {
+      "word": "relieve",
+      "phonetic": "/rɪˈliːv/",
+      "pos": "v.",
+      "meaning": "缓解；减轻",
+      "example": "Regular exercise helps relieve stress and improve sleep.",
+      "example_cn": "规律锻炼有助于缓解压力并改善睡眠。"
+    },
+    {
+      "word": "stress",
+      "phonetic": "/stres/",
+      "pos": "n.",
+      "meaning": "压力；强调",
+      "example": "Long-term stress harms both study performance and health.",
+      "example_cn": "长期压力会损害学业表现和身体健康。"
+    },
+    {
+      "word": "mental",
+      "phonetic": "/ˈmentl/",
+      "pos": "adj.",
+      "meaning": "心理的；精神的",
+      "example": "The university offers free counselling for mental health.",
+      "example_cn": "这所大学为心理健康提供免费咨询。"
+    },
+    {
+      "word": "psychological",
+      "phonetic": "/ˌsaɪkəˈlɒdʒɪkl/",
+      "pos": "adj.",
+      "meaning": "心理的；心理学的",
+      "example": "Advertising uses psychological tricks to shape consumer habits.",
+      "example_cn": "广告运用心理技巧来塑造消费者的习惯。"
+    },
+    {
+      "word": "therapy",
+      "phonetic": "/ˈθerəpi/",
+      "pos": "n.",
+      "meaning": "治疗；疗法",
+      "example": "He attends therapy twice a month to manage anxiety.",
+      "example_cn": "他每月两次接受心理治疗以管理焦虑。"
+    },
+    {
+      "word": "attitude",
+      "phonetic": "/ˈætɪtjuːd/",
+      "pos": "n.",
+      "meaning": "态度；看法",
+      "example": "A positive attitude towards mistakes speeds up learning.",
+      "example_cn": "对错误持积极态度能加快学习进程。"
+    },
+    {
+      "word": "belief",
+      "phonetic": "/bɪˈliːf/",
+      "pos": "n.",
+      "meaning": "信念；相信",
+      "example": "Her belief in hard work carried her through difficult years.",
+      "example_cn": "努力工作的信念支撑她度过了艰难的岁月。"
+    },
+    {
+      "word": "creativity",
+      "phonetic": "/kriˈeɪtɪvəti/",
+      "pos": "n.",
+      "meaning": "创造力；创造性",
+      "example": "Open discussion in class encourages creativity among students.",
+      "example_cn": "课堂上的开放讨论有助于激发学生的创造力。"
+    },
+    {
+      "word": "curiosity",
+      "phonetic": "/ˌkjʊəriˈɒsəti/",
+      "pos": "n.",
+      "meaning": "好奇心；求知欲",
+      "example": "Curiosity drives children to question everything around them.",
+      "example_cn": "好奇心驱使孩子对周围一切提出疑问。"
+    },
+    {
+      "word": "reluctant",
+      "phonetic": "/rɪˈlʌktənt/",
+      "pos": "adj.",
+      "meaning": "不情愿的；勉强的",
+      "example": "Many employees are reluctant to speak up about problems.",
+      "example_cn": "许多员工不情愿就问题发表意见。"
+    },
+    {
+      "word": "eager",
+      "phonetic": "/ˈiːɡə(r)/",
+      "pos": "adj.",
+      "meaning": "渴望的；热切的",
+      "example": "Interns are often eager to take on extra responsibility.",
+      "example_cn": "实习生通常乐于承担额外的责任。"
+    },
+    {
+      "word": "satisfaction",
+      "phonetic": "/ˌsætɪsˈfækʃn/",
+      "pos": "n.",
+      "meaning": "满意；满足",
+      "example": "Job satisfaction depends on more than salary alone.",
+      "example_cn": "工作满意度并不只取决于薪水。"
+    },
+    {
+      "word": "grateful",
+      "phonetic": "/ˈɡreɪtfl/",
+      "pos": "adj.",
+      "meaning": "感激的；表示感谢的",
+      "example": "She felt grateful to the tutor who stayed after class.",
+      "example_cn": "她很感激那位课后留下来辅导的老师。"
+    },
+    {
+      "word": "isolation",
+      "phonetic": "/ˌaɪsəˈleɪʃn/",
+      "pos": "n.",
+      "meaning": "孤立；隔离",
+      "example": "Studying online all day can lead to social isolation.",
+      "example_cn": "整天上网课学习可能导致社交孤立。"
+    },
+    {
+      "word": "depression",
+      "phonetic": "/dɪˈpreʃn/",
+      "pos": "n.",
+      "meaning": "抑郁；沮丧",
+      "example": "Prolonged sadness may be a sign of depression.",
+      "example_cn": "持续悲伤可能是抑郁的一个信号。"
+    },
+    {
+      "word": "optimistic",
+      "phonetic": "/ˌɒptɪˈmɪstɪk/",
+      "pos": "adj.",
+      "meaning": "乐观的",
+      "example": "The team remains optimistic despite two failed attempts.",
+      "example_cn": "尽管两次尝试失败，团队仍然保持乐观。"
+    },
+    {
+      "word": "pessimistic",
+      "phonetic": "/ˌpesɪˈmɪstɪk/",
+      "pos": "adj.",
+      "meaning": "悲观的",
+      "example": "Experts are less pessimistic about the job market now.",
+      "example_cn": "专家们如今对就业市场的看法不那么悲观了。"
+    },
+    {
+      "word": "adequate",
+      "phonetic": "/ˈædɪkwət/",
+      "pos": "adj.",
+      "meaning": "充足的；适当的",
+      "example": "The laboratory does not have adequate space for new equipment.",
+      "example_cn": "这间实验室没有足够的空间放新设备。"
+    },
+    {
+      "word": "abundant",
+      "phonetic": "/əˈbʌndənt/",
+      "pos": "adj.",
+      "meaning": "丰富的；大量的",
+      "example": "The valley has abundant rainfall throughout the summer.",
+      "example_cn": "整个夏天山谷里的降雨都很充沛。"
+    },
+    {
+      "word": "scarce",
+      "phonetic": "/skeəs/",
+      "pos": "adj.",
+      "meaning": "缺乏的；稀少的",
+      "example": "Clean drinking water is scarce in several coastal towns.",
+      "example_cn": "几个沿海城镇的清洁饮用水很匮乏。"
+    },
+    {
+      "word": "apparent",
+      "phonetic": "/əˈpærənt/",
+      "pos": "adj.",
+      "meaning": "明显的；表面上的",
+      "example": "It became apparent that the schedule needed revising.",
+      "example_cn": "很明显，这份时间安排需要修改。"
+    },
+    {
+      "word": "crucial",
+      "phonetic": "/ˈkruːʃl/",
+      "pos": "adj.",
+      "meaning": "至关重要的；决定性的",
+      "example": "Sleep before an exam is crucial to clear thinking.",
+      "example_cn": "考前睡好觉对思维清晰至关重要。"
+    },
+    {
+      "word": "vital",
+      "phonetic": "/ˈvaɪtl/",
+      "pos": "adj.",
+      "meaning": "至关重要的；有生命力的",
+      "example": "Feedback from users is vital to improving the product.",
+      "example_cn": "用户反馈对改进产品至关重要。"
+    },
+    {
+      "word": "temporary",
+      "phonetic": "/ˈtemprəri/",
+      "pos": "adj.",
+      "meaning": "暂时的；临时的",
+      "example": "He took a temporary job to save for graduate study.",
+      "example_cn": "他做了一份临时工作，为读研攒钱。"
+    },
+    {
+      "word": "permanent",
+      "phonetic": "/ˈpɜːmənənt/",
+      "pos": "adj.",
+      "meaning": "永久的；长期的",
+      "example": "Noise pollution may cause permanent damage to hearing.",
+      "example_cn": "噪声污染可能对听力造成永久损伤。"
+    },
+    {
+      "word": "initial",
+      "phonetic": "/ɪˈnɪʃl/",
+      "pos": "adj.",
+      "meaning": "最初的；开始的",
+      "example": "Her initial reaction was surprise rather than anger.",
+      "example_cn": "她最初的反应是惊讶而不是愤怒。"
+    },
+    {
+      "word": "ultimate",
+      "phonetic": "/ˈʌltɪmət/",
+      "pos": "adj.",
+      "meaning": "最终的；根本的",
+      "example": "The ultimate goal of the policy is equal access to school.",
+      "example_cn": "这项政策的最终目标是人人平等入学。"
+    },
+    {
+      "word": "subsequent",
+      "phonetic": "/ˈsʌbsɪkwənt/",
+      "pos": "adj.",
+      "meaning": "随后的；后续的",
+      "example": "Subsequent studies confirmed the finding of that original experiment.",
+      "example_cn": "后续研究证实了那个原始实验的发现。"
+    },
+    {
+      "word": "equivalent",
+      "phonetic": "/ɪˈkwɪvələnt/",
+      "pos": "adj.",
+      "meaning": "相等的；等价的",
+      "example": "One credit here is roughly equivalent to two abroad.",
+      "example_cn": "这里的一个学分大致相当于国外的两个。"
+    },
+    {
+      "word": "nevertheless",
+      "phonetic": "/ˌnevəðəˈles/",
+      "pos": "adv.",
+      "meaning": "然而；尽管如此",
+      "example": "The task was difficult; nevertheless, they finished on time.",
+      "example_cn": "任务很难，尽管如此他们还是按时完成了。"
+    },
+    {
+      "word": "furthermore",
+      "phonetic": "/ˌfɜːðəˈmɔː(r)/",
+      "pos": "adv.",
+      "meaning": "此外；而且",
+      "example": "Cycling saves money; furthermore, it also improves physical fitness.",
+      "example_cn": "骑车能省钱，此外还能增强体质。"
+    },
+    {
+      "word": "consequently",
+      "phonetic": "/ˈkɒnsɪkwəntli/",
+      "pos": "adv.",
+      "meaning": "因此；所以",
+      "example": "He missed classes; consequently, he failed the test.",
+      "example_cn": "他缺课很多，因此考试没有通过。"
+    },
+    {
+      "word": "meanwhile",
+      "phonetic": "/ˈmiːnwaɪl/",
+      "pos": "adv.",
+      "meaning": "同时；期间",
+      "example": "The results are delayed; meanwhile, the team keeps collecting data.",
+      "example_cn": "结果被推迟了，同时团队继续收集数据。"
+    },
+    {
+      "word": "whereas",
+      "phonetic": "/ˌweərˈæz/",
+      "pos": "conj.",
+      "meaning": "然而；反之",
+      "example": "City rents rose sharply, whereas rural incomes barely changed.",
+      "example_cn": "城市房租大幅上涨，然而农村收入几乎没变。"
+    },
+    {
+      "word": "approximately",
+      "phonetic": "/əˈprɒksɪmətli/",
+      "pos": "adv.",
+      "meaning": "大约；近似地",
+      "example": "Approximately one third of the students live off campus.",
+      "example_cn": "大约三分之一的学生住在校外。"
+    },
+    {
+      "word": "predominantly",
+      "phonetic": "/prɪˈdɒmɪnəntli/",
+      "pos": "adv.",
+      "meaning": "主要地；占优势地",
+      "example": "The workforce is predominantly made up of young graduates.",
+      "example_cn": "这家公司的员工主要由年轻毕业生组成。"
+    },
+    {
+      "word": "increasingly",
+      "phonetic": "/ɪnˈkriːsɪŋli/",
+      "pos": "adv.",
+      "meaning": "越来越多地；日益",
+      "example": "Remote work is becoming increasingly common in this sector.",
+      "example_cn": "在这个行业，远程办公正变得越来越普遍。"
+    },
+    {
+      "word": "presumably",
+      "phonetic": "/prɪˈzjuːməbli/",
+      "pos": "adv.",
+      "meaning": "大概；想来",
+      "example": "The lecture was cancelled, presumably because of the storm.",
+      "example_cn": "讲座取消了，想来是因为那阵暴风雨。"
+    },
+    {
+      "word": "merely",
+      "phonetic": "/ˈmɪəli/",
+      "pos": "adv.",
+      "meaning": "仅仅；只不过",
+      "example": "The summary is merely a guide, not a replacement for reading.",
+      "example_cn": "这份摘要仅仅是导引，不能替代阅读原文。"
+    }
+  ]
+}

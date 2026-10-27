@@ -1,0 +1,136 @@
+<view class="wrap">
+  <block wx:if="{{loading}}">
+    <view class="card skel skel--hero"></view>
+    <view class="card">
+      <view class="skel skel--title"></view>
+      <view class="skel skel--chart mt16"></view>
+    </view>
+    <view class="card">
+      <view class="skel skel--title"></view>
+      <view class="skel skel--row mt16"></view>
+      <view class="skel skel--row mt16"></view>
+    </view>
+    <view class="card">
+      <view class="skel skel--title"></view>
+      <view class="skel skel--row mt16"></view>
+    </view>
+  </block>
+
+  <block wx:elif="{{error}}">
+    <view class="empty">{{error}}</view>
+    <button class="btn btn--primary" bindtap="onRetry">重试</button>
+  </block>
+
+  <block wx:else>
+    <view class="card">
+      <text class="muted">连续打卡</text>
+      <view class="row mt8">
+        <text class="hero__num">{{streak}}</text>
+        <text class="hero__unit">天</text>
+      </view>
+      <view class="divider"></view>
+      <view wx:if="{{hasToday}}">
+        <view class="row row--between">
+          <text class="title">今日已学</text>
+          <text class="strong">{{todayText}}</text>
+        </view>
+        <view class="bar mt16">
+          <view class="bar__fill" style="width:{{todayPct}}%"></view>
+        </view>
+        <view class="row row--between mt8">
+          <text class="sub">{{todayDetail}}</text>
+          <text class="tag {{todayTagCls}}">{{todayTag}}</text>
+        </view>
+      </view>
+      <view wx:else class="sub mt8">今天还没开始背</view>
+    </view>
+
+    <view class="card">
+      <view class="title mb16">近 30 天打卡</view>
+      <scroll-view wx:if="{{hasHistory}}" class="chart" scroll-x enable-flex enhanced show-scrollbar="{{false}}">
+        <view class="chart__inner" style="width:{{chartWidth}}rpx">
+          <view
+            class="chart__col"
+            wx:for="{{bars}}"
+            wx:key="date"
+            data-i="{{index}}"
+            bindtap="onTapBar"
+          >
+            <view class="chart__bar {{item.cls}}" style="height:{{item.height}}rpx"></view>
+            <text class="chart__label">{{item.label}}</text>
+          </view>
+        </view>
+      </scroll-view>
+      <view wx:else class="empty">近 30 天还没有打卡记录</view>
+      <view class="row row--gap mt16">
+        <view class="legend">
+          <view class="dot dot--good"></view>
+          <text class="muted">达标</text>
+        </view>
+        <view class="legend">
+          <view class="dot dot--part"></view>
+          <text class="muted">未达标</text>
+        </view>
+        <view class="legend">
+          <view class="dot dot--none"></view>
+          <text class="muted">没学</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="card">
+      <view class="row row--between mb16">
+        <text class="title">词汇量分布</text>
+        <text class="sub">共 {{total}} 个词</text>
+      </view>
+      <view class="dist">
+        <view class="dist__seg" wx:for="{{segments}}" wx:key="key" style="{{item.style}}"></view>
+      </view>
+      <view class="dist__legend mt16">
+        <view class="dist__item" wx:for="{{legend}}" wx:key="key">
+          <view class="dot" style="{{item.dotStyle}}"></view>
+          <text class="sub grow">{{item.label}}</text>
+          <text class="strong">{{item.count}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="card">
+      <view class="title mb16">数据概览</view>
+      <view class="grid">
+        <view class="grid__item" wx:for="{{cells}}" wx:key="label">
+          <text class="grid__value">{{item.value}}</text>
+          <text class="muted mt8">{{item.label}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="card">
+      <view class="title mb16">调整每日目标</view>
+      <view class="row row--between">
+        <view class="col">
+          <text class="strong">每日学习目标</text>
+          <text class="muted mt8">每天计划学会的词数</text>
+        </view>
+        <view class="step">
+          <button class="step__btn" disabled="{{goalDownDisabled}}" data-field="goal" data-dir="-1" bindtap="onStep">-</button>
+          <text class="step__num">{{dailyGoal}}</text>
+          <button class="step__btn" disabled="{{goalUpDisabled}}" data-field="goal" data-dir="1" bindtap="onStep">+</button>
+        </view>
+      </view>
+      <view class="divider"></view>
+      <view class="row row--between">
+        <view class="col">
+          <text class="strong">每日新词</text>
+          <text class="muted mt8">每天安排学习的生词数量</text>
+        </view>
+        <view class="step">
+          <button class="step__btn" disabled="{{limitDownDisabled}}" data-field="limit" data-dir="-1" bindtap="onStep">-</button>
+          <text class="step__num">{{newWordLimit}}</text>
+          <button class="step__btn" disabled="{{limitUpDisabled}}" data-field="limit" data-dir="1" bindtap="onStep">+</button>
+        </view>
+      </view>
+      <button class="btn btn--primary mt24" disabled="{{saveDisabled}}" bindtap="onSave">保存</button>
+    </view>
+  </block>
+</view>

@@ -1,0 +1,50 @@
+.statsRight {
+  align-items: flex-end;
+}
+
+.group {
+  font-size: 26rpx;
+  font-weight: 600;
+  color: #7b8497;
+  padding: 8rpx 4rpx 16rpx;
+}
+
+.book {
+  margin-bottom: 20rpx;
+}
+
+.btn--sm {
+  flex: none;
+  width: auto;
+  margin: 0;
+  height: 64rpx;
+  min-width: 128rpx;
+  padding: 0 24rpx;
+  font-size: 26rpx;
+  border-radius: 999rpx;
+}
+
+.tip {
+  padding: 8rpx 4rpx 24rpx;
+}
+
+.mask {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  background: rgba(20, 28, 48, 0.45);
+  display: flex;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+
+.sheet {
+  width: 100%;
+  margin-bottom: 0;
+  border-radius: 32rpx 32rpx 0 0;
+  padding: 36rpx 32rpx calc(40rpx + env(safe-area-inset-bottom));
+  box-sizing: border-box;
+}

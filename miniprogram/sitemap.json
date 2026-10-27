@@ -1,0 +1,4 @@
+{
+  "desc": "背小单小程序页面索引",
+  "rules": [{ "action": "disallow", "page": "pages/login/login" }]
+}

@@ -1,0 +1,81 @@
+<view class="wrap">
+  <view wx:if="{{readonly}}" class="card card--flat">
+    <view class="muted">内置词库为只读，可在词库页新建自己的词库后导入</view>
+  </view>
+
+  <view class="card">
+    <input class="input" placeholder="搜索单词或中文释义" value="{{kw}}" confirm-type="search" bindinput="onSearchInput" bindconfirm="onSearchConfirm" />
+    <view wx:if="{{!readonly}}" class="row row--gap mt16">
+      <button class="btn btn--grid" bindtap="onTapAdd">添加单词</button>
+      <button class="btn btn--grid" bindtap="onTapImport">批量导入</button>
+    </view>
+  </view>
+
+  <view class="row row--between mb16">
+    <text class="sub">共 {{total}} 个单词</text>
+    <text wx:if="{{kw}}" class="muted">搜索：{{kw}}</text>
+  </view>
+
+  <view wx:if="{{error}}" class="card">
+    <view class="title">单词没加载出来</view>
+    <view class="sub mt8">{{error}}</view>
+    <button class="btn btn--ghost mt24" bindtap="onTapRetry">重新加载</button>
+  </view>
+
+  <view wx:elif="{{!loading && !words.length}}" class="empty">{{kw ? '没有匹配的单词，换个词试试' : '这本词库还没有单词'}}</view>
+
+  <view class="card card--flat wordItem" wx:for="{{words}}" wx:key="id" data-id="{{item.id}}" bindtap="onTapWord">
+    <view class="row row--between row--gap">
+      <view class="col grow">
+        <view class="row row--gap">
+          <text class="strong wordText">{{item.word}}</text>
+          <text wx:if="{{item.phonetic}}" class="sub">{{item.phonetic}}</text>
+        </view>
+        <view class="brief mt8">{{item.brief}}</view>
+      </view>
+      <text class="tag {{item.cls}}">{{item.label}}</text>
+    </view>
+  </view>
+
+  <view wx:if="{{loading && words.length}}" class="empty">加载中</view>
+  <view wx:elif="{{noMore && words.length}}" class="muted tailNote">已经到底了</view>
+
+  <view wx:if="{{addVisible}}" class="mask" bindtap="onTapCloseAdd">
+    <view class="card sheet" catchtap="noop">
+      <view class="title">添加单词</view>
+      <scroll-view scroll-y class="sheetBody">
+        <input class="input mt16" placeholder="单词，例如 apple" value="{{form.word}}" data-field="word" bindinput="onFormInput" />
+        <input class="input mt16" placeholder="中文释义（必填），例如 苹果" value="{{form.meaning}}" data-field="meaning" bindinput="onFormInput" />
+        <input class="input mt16" placeholder="音标，可以不填，例如 ˈæpl" value="{{form.phonetic}}" data-field="phonetic" bindinput="onFormInput" />
+        <input class="input mt16" placeholder="词性，可以不填，例如 n." value="{{form.pos}}" data-field="pos" bindinput="onFormInput" />
+        <input class="input mt16" placeholder="例句，可以不填" value="{{form.example}}" data-field="example" bindinput="onFormInput" />
+        <input class="input mt16" placeholder="例句翻译，可以不填" value="{{form.exampleCn}}" data-field="exampleCn" bindinput="onFormInput" />
+      </scroll-view>
+      <view class="row row--gap mt24">
+        <button class="btn btn--ghost btn--grid" bindtap="onTapCloseAdd">取消</button>
+        <button class="btn btn--primary btn--grid" bindtap="onTapSaveWord">保存</button>
+      </view>
+    </view>
+  </view>
+
+  <view wx:if="{{importVisible}}" class="mask" bindtap="onTapCloseImport">
+    <view class="card sheet" catchtap="noop">
+      <view class="row row--between">
+        <view class="title">批量导入</view>
+        <view class="link" bindtap="onTapCopySample">复制示例</view>
+      </view>
+      <scroll-view scroll-y class="sheetBody">
+        <textarea class="textarea mt16" placeholder="{{sample}}" placeholder-style="white-space: pre-line" value="{{csv}}" bindinput="onCsvInput" maxlength="-1"></textarea>
+        <view class="muted mt8">一行一个单词，逗号分隔；内置词库不能导入，请先在词库页新建自己的词库</view>
+        <view wx:if="{{importResult}}" class="result mt16">
+          <text class="strong">{{importResult}}</text>
+          <view wx:if="{{skippedText}}" class="muted mt8">{{skippedText}}</view>
+        </view>
+      </scroll-view>
+      <view class="row row--gap mt24">
+        <button class="btn btn--ghost btn--grid" bindtap="onTapCloseImport">关闭</button>
+        <button class="btn btn--primary btn--grid" bindtap="onTapSubmitImport">开始导入</button>
+      </view>
+    </view>
+  </view>
+</view>

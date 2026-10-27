@@ -1,0 +1,27 @@
+.login {
+  padding-top: 80rpx;
+}
+
+.brand {
+  text-align: center;
+  padding: 40rpx 0 64rpx;
+}
+
+.brand__title {
+  font-size: 64rpx;
+  font-weight: 700;
+  color: #3561f4;
+  letter-spacing: 4rpx;
+}
+
+.brand__sub {
+  margin-top: 16rpx;
+  font-size: 28rpx;
+  color: #7b8497;
+}
+
+.err {
+  color: #d94b4b;
+  font-size: 26rpx;
+  text-align: center;
+}
