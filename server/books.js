@@ -3,7 +3,7 @@ const path = require('path');
 const cfg = require('./config');
 const store = require('./db');
 
-const FILE_BOOKS = ['gr5-upper', 'xiaoxue', 'zhongkao', 'gaokao', 'cet4', 'hotel'];
+const FILE_BOOKS = ['gr5-upper', 'gr7-upper', 'xiaoxue', 'zhongkao', 'gaokao', 'cet4', 'hotel'];
 
 function norm(s) {
   return String(s == null ? '' : s).trim();

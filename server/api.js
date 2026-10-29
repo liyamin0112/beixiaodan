@@ -402,7 +402,7 @@ const routes = {
     return {
       ok: true,
       books: db.wordbooks
-        .filter((b) => b.source === 'builtin' || b.ownerId === user.id)
+        .filter((b) => b.source === 'builtin' || b.source === 'global' || b.ownerId === user.id)
         .map((b) => ({
           id: b.id,
           title: b.title,
@@ -448,7 +448,7 @@ const routes = {
     const book = mustBook(req.params.id, user);
     const w = (store.get().words[book.id] || {})[auth.norm(req.params.wordId)];
     if (!w) throw new HttpError(404, '单词不存在');
-    return { ok: true, word: payloadForWord(w, user, false), book: { id: book.id, title: book.title, source: book.source, editable: book.source !== 'builtin' } };
+    return { ok: true, word: payloadForWord(w, user, false), book: { id: book.id, title: book.title, source: book.source, editable: canEditBook(book, user) } };
   },
 
   'POST /api/books': async (body, req) => {
@@ -636,6 +636,7 @@ const routes = {
   'GET /api/stats': async (body, req) => {
     const user = getUser(req);
     const now = Date.now();
+    ensureDay(user, now);
     const db = store.get();
     const days = Object.values(db.days[user.id] || {}).sort((a, b) => (a.date < b.date ? -1 : 1));
     const recent = days.slice(-30).map((d) => ({
@@ -733,11 +734,18 @@ function clampInt(v, min, max) {
   return Math.min(max, Math.max(min, n));
 }
 
+function canEditBook(book, user) {
+  if (!book || book.source === 'builtin') return false;
+  if (book.source === 'global') return user.role === 'admin';
+  return book.ownerId === user.id;
+}
+
 function mustBook(id, user, writable) {
   const db = store.get();
   const book = db.wordbooks.find((b) => b.id === auth.norm(id));
   if (!book) throw new HttpError(404, '词库不存在');
   if (writable && book.source === 'builtin') throw new HttpError(403, '内置词库不可修改，请导入到"我的词库"');
+  if (writable && book.source === 'global' && user.role !== 'admin') throw new HttpError(403, '公共词库仅管理员可修改');
   if (writable && book.source === 'user' && book.ownerId !== user.id) throw new HttpError(403, '无权修改他人词库');
   return book;
 }
@@ -747,8 +755,7 @@ function mustWordWritable(wordId, user) {
   if (!w) throw new HttpError(404, '单词不存在');
   const db = store.get();
   const book = db.wordbooks.find((b) => b.id === w.bookId);
-  if (!book || book.source === 'builtin') throw new HttpError(403, '内置词库不可修改');
-  if (book.ownerId !== user.id && book.source !== 'global') throw new HttpError(403, '无权修改该单词');
+  if (!canEditBook(book, user)) throw new HttpError(403, '无权修改该单词');
   return w;
 }
 

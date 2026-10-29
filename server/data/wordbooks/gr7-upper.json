@@ -1,0 +1,1981 @@
+{
+ "book": "gr7-upper",
+ "title": "七年级上册单词本",
+ "description": "教材附录 Vocabulary in Each Unit（Starter Unit 1 – Unit 7，p.106–112）",
+ "words": [
+  {
+   "word": "unit",
+   "phonetic": "/ˈjuːnɪt/",
+   "pos": "n. · Starter Unit 1",
+   "meaning": "单元"
+  },
+  {
+   "word": "starter unit",
+   "phonetic": "/ˈstɑːtə(r)/",
+   "pos": "Starter Unit 1",
+   "meaning": "过渡单元"
+  },
+  {
+   "word": "section",
+   "phonetic": "/ˈsekʃn/",
+   "pos": "n. · Starter Unit 1",
+   "meaning": "部分；地区"
+  },
+  {
+   "word": "greet",
+   "phonetic": "/ɡriːt/",
+   "pos": "v. · Starter Unit 1",
+   "meaning": "招呼；问候"
+  },
+  {
+   "word": "oh",
+   "phonetic": "/əʊ/",
+   "pos": "interj. · Starter Unit 1",
+   "meaning": "哦；啊"
+  },
+  {
+   "word": "everyone",
+   "phonetic": "/ˈevriwʌn/",
+   "pos": "pron. · Starter Unit 1",
+   "meaning": "每人；所有人"
+  },
+  {
+   "word": "start",
+   "phonetic": "/stɑːt/",
+   "pos": "v. · Starter Unit 1",
+   "meaning": "开始；着手"
+  },
+  {
+   "word": "conversation",
+   "phonetic": "/ˌkɒnvəˈseɪʃn/",
+   "pos": "n. · Starter Unit 1",
+   "meaning": "谈话；交谈"
+  },
+  {
+   "word": "spell",
+   "phonetic": "/spel/",
+   "pos": "v. · Starter Unit 1",
+   "meaning": "用字母拼；拼写"
+  },
+  {
+   "word": "bell",
+   "phonetic": "/bel/",
+   "pos": "n. · Starter Unit 1",
+   "meaning": "铃（声）；钟（声）"
+  },
+  {
+   "word": "Helen",
+   "phonetic": "/ˈhelən/",
+   "pos": "Starter Unit 1",
+   "meaning": "海伦"
+  },
+  {
+   "word": "Ella",
+   "phonetic": "/ˈelə/",
+   "pos": "Starter Unit 1",
+   "meaning": "埃拉"
+  },
+  {
+   "word": "Emma",
+   "phonetic": "/ˈemə/",
+   "pos": "Starter Unit 1",
+   "meaning": "埃玛"
+  },
+  {
+   "word": "Peter",
+   "phonetic": "/ˈpiːtə(r)/",
+   "pos": "Starter Unit 1",
+   "meaning": "彼得"
+  },
+  {
+   "word": "Brown",
+   "phonetic": "/braʊn/",
+   "pos": "Starter Unit 1",
+   "meaning": "布朗"
+  },
+  {
+   "word": "PRC",
+   "phonetic": "/ˌpiː ɑː(r) ˈsiː/",
+   "pos": "Starter Unit 1",
+   "meaning": "中华人民共和国"
+  },
+  {
+   "word": "PLA",
+   "phonetic": "/ˌpiː el ˈeɪ/",
+   "pos": "Starter Unit 1",
+   "meaning": "中国人民解放军"
+  },
+  {
+   "word": "VR",
+   "phonetic": "/ˌviː ˈɑː(r)/",
+   "pos": "Starter Unit 1",
+   "meaning": "虚拟现实"
+  },
+  {
+   "word": "WHO",
+   "phonetic": "/ˌdʌbljuː eɪtʃ ˈəʊ/",
+   "pos": "Starter Unit 1",
+   "meaning": "世界卫生组织"
+  },
+  {
+   "word": "UN",
+   "phonetic": "/ˌjuː ˈen/",
+   "pos": "Starter Unit 1",
+   "meaning": "联合国"
+  },
+  {
+   "word": "Miller",
+   "phonetic": "/ˈmɪlə(r)/",
+   "pos": "Starter Unit 1",
+   "meaning": "米勒"
+  },
+  {
+   "word": "bottle",
+   "phonetic": "/ˈbɒtl/",
+   "pos": "n. · Starter Unit 2",
+   "meaning": "瓶子"
+  },
+  {
+   "word": "eraser",
+   "phonetic": "/ɪˈreɪzə(r)/",
+   "pos": "n. · Starter Unit 2",
+   "meaning": "橡皮"
+  },
+  {
+   "word": "key",
+   "phonetic": "/kiː/",
+   "pos": "n. · Starter Unit 2",
+   "meaning": "钥匙；关键"
+  },
+  {
+   "word": "thing",
+   "phonetic": "/θɪŋ/",
+   "pos": "n. · Starter Unit 2",
+   "meaning": "东西；事情"
+  },
+  {
+   "word": "You're welcome.",
+   "phonetic": "",
+   "pos": "Starter Unit 2",
+   "meaning": "别客气；不用谢。"
+  },
+  {
+   "word": "fun",
+   "phonetic": "/fʌn/",
+   "pos": "n. & adj. · Starter Unit 3",
+   "meaning": "乐趣；快乐；有趣的；使人快乐的"
+  },
+  {
+   "word": "yard",
+   "phonetic": "/jɑːd/",
+   "pos": "n. · Starter Unit 3",
+   "meaning": "院子；园圃"
+  },
+  {
+   "word": "carrot",
+   "phonetic": "/ˈkærət/",
+   "pos": "n. · Starter Unit 3",
+   "meaning": "胡萝卜"
+  },
+  {
+   "word": "goose",
+   "phonetic": "/ɡuːs/",
+   "pos": "n. · Starter Unit 3",
+   "meaning": "鹅（pl. geese /ɡiːs/）"
+  },
+  {
+   "word": "count",
+   "phonetic": "/kaʊnt/",
+   "pos": "v. · Starter Unit 3",
+   "meaning": "数数"
+  },
+  {
+   "word": "another",
+   "phonetic": "/əˈnʌðə(r)/",
+   "pos": "adj. & pron. · Starter Unit 3",
+   "meaning": "另一（人或事物）"
+  },
+  {
+   "word": "else",
+   "phonetic": "/els/",
+   "pos": "adv. · Starter Unit 3",
+   "meaning": "其他的；别的"
+  },
+  {
+   "word": "circle",
+   "phonetic": "/ˈsɜːkl/",
+   "pos": "v. & n. · Starter Unit 3",
+   "meaning": "圈出；圆形；圆圈"
+  },
+  {
+   "word": "look at",
+   "phonetic": "",
+   "pos": "Starter Unit 3",
+   "meaning": "看；瞧"
+  },
+  {
+   "word": "make friends",
+   "phonetic": "",
+   "pos": "Unit 1",
+   "meaning": "交朋友"
+  },
+  {
+   "word": "get to know",
+   "phonetic": "",
+   "pos": "Unit 1",
+   "meaning": "认识；了解"
+  },
+  {
+   "word": "each",
+   "phonetic": "/iːtʃ/",
+   "pos": "adj. & pron. · Unit 1",
+   "meaning": "每个；各自"
+  },
+  {
+   "word": "other",
+   "phonetic": "/ˈʌðə(r)/",
+   "pos": "pron. & adj. · Unit 1",
+   "meaning": "另外的人（或物）；另外的；其他的"
+  },
+  {
+   "word": "each other",
+   "phonetic": "",
+   "pos": "Unit 1",
+   "meaning": "互相；彼此"
+  },
+  {
+   "word": "full",
+   "phonetic": "/fʊl/",
+   "pos": "adj. · Unit 1",
+   "meaning": "完整的；满的"
+  },
+  {
+   "word": "full name",
+   "phonetic": "",
+   "pos": "Unit 1",
+   "meaning": "全名"
+  },
+  {
+   "word": "grade",
+   "phonetic": "/ɡreɪd/",
+   "pos": "n. · Unit 1",
+   "meaning": "年级；等级"
+  },
+  {
+   "word": "last name",
+   "phonetic": "",
+   "pos": "Unit 1",
+   "meaning": "姓氏"
+  },
+  {
+   "word": "classmate",
+   "phonetic": "/ˈklɑːsmeɪt/",
+   "pos": "n. · Unit 1",
+   "meaning": "同班同学"
+  },
+  {
+   "word": "class teacher",
+   "phonetic": "",
+   "pos": "Unit 1",
+   "meaning": "班主任"
+  },
+  {
+   "word": "first name",
+   "phonetic": "",
+   "pos": "Unit 1",
+   "meaning": "名字"
+  },
+  {
+   "word": "mistake",
+   "phonetic": "/mɪˈsteɪk/",
+   "pos": "n. · Unit 1",
+   "meaning": "错误；失误"
+  },
+  {
+   "word": "country",
+   "phonetic": "/ˈkʌntri/",
+   "pos": "n. · Unit 1",
+   "meaning": "国家"
+  },
+  {
+   "word": "same",
+   "phonetic": "/seɪm/",
+   "pos": "adj. · Unit 1",
+   "meaning": "相同的"
+  },
+  {
+   "word": "twin",
+   "phonetic": "/twɪn/",
+   "pos": "n. & adj. · Unit 1",
+   "meaning": "双胞胎之一；双胞胎之一的"
+  },
+  {
+   "word": "pot",
+   "phonetic": "/pɒt/",
+   "pos": "n. · Unit 1",
+   "meaning": "锅"
+  },
+  {
+   "word": "tofu",
+   "phonetic": "/ˈtəʊfuː/",
+   "pos": "n. · Unit 1",
+   "meaning": "豆腐"
+  },
+  {
+   "word": "need",
+   "phonetic": "/niːd/",
+   "pos": "v. & n. · Unit 1",
+   "meaning": "需要"
+  },
+  {
+   "word": "parrot",
+   "phonetic": "/ˈpærət/",
+   "pos": "n. · Unit 1",
+   "meaning": "鹦鹉"
+  },
+  {
+   "word": "guitar",
+   "phonetic": "/ɡɪˈtɑː(r)/",
+   "pos": "n. · Unit 1",
+   "meaning": "吉他"
+  },
+  {
+   "word": "tennis",
+   "phonetic": "/ˈtenɪs/",
+   "pos": "n. · Unit 1",
+   "meaning": "网球；网球运动"
+  },
+  {
+   "word": "play the guitar",
+   "phonetic": "",
+   "pos": "Unit 1",
+   "meaning": "弹吉他"
+  },
+  {
+   "word": "would",
+   "phonetic": "/wʊd; wəd/",
+   "pos": "modal v. · Unit 1",
+   "meaning": "想（用于礼貌地邀请或向某人提供某物）；将会"
+  },
+  {
+   "word": "would ('d) like to",
+   "phonetic": "",
+   "pos": "Unit 1",
+   "meaning": "表示愿意、喜欢"
+  },
+  {
+   "word": "information",
+   "phonetic": "/ˌɪnfəˈmeɪʃn/",
+   "pos": "n. · Unit 1",
+   "meaning": "信息；消息"
+  },
+  {
+   "word": "hobby",
+   "phonetic": "/ˈhɒbi/",
+   "pos": "n. · Unit 1",
+   "meaning": "业余爱好"
+  },
+  {
+   "word": "re",
+   "phonetic": "/riː/",
+   "pos": "prep. · Unit 1",
+   "meaning": "（用于回复电子邮件）关于；事由"
+  },
+  {
+   "word": "Green",
+   "phonetic": "/ɡriːn/",
+   "pos": "Unit 1",
+   "meaning": "格林"
+  },
+  {
+   "word": "UK",
+   "phonetic": "/ˌjuː ˈkeɪ/",
+   "pos": "Unit 1",
+   "meaning": "英国"
+  },
+  {
+   "word": "US",
+   "phonetic": "/ˌjuː es/",
+   "pos": "Unit 1",
+   "meaning": "美国"
+  },
+  {
+   "word": "Smith",
+   "phonetic": "/smɪθ/",
+   "pos": "Unit 1",
+   "meaning": "史密斯"
+  },
+  {
+   "word": "Lisa",
+   "phonetic": "/ˈliːsə/",
+   "pos": "Unit 1",
+   "meaning": "莉萨"
+  },
+  {
+   "word": "Tom",
+   "phonetic": "/tɒm/",
+   "pos": "Unit 1",
+   "meaning": "汤姆"
+  },
+  {
+   "word": "hot pot",
+   "phonetic": "",
+   "pos": "Unit 1",
+   "meaning": "火锅"
+  },
+  {
+   "word": "Sally",
+   "phonetic": "/ˈsæli/",
+   "pos": "Unit 1",
+   "meaning": "萨莉"
+  },
+  {
+   "word": "Wood",
+   "phonetic": "/wʊd/",
+   "pos": "Unit 1",
+   "meaning": "伍德"
+  },
+  {
+   "word": "Sydney",
+   "phonetic": "/ˈsɪdni/",
+   "pos": "Unit 1",
+   "meaning": "悉尼（澳大利亚城市）"
+  },
+  {
+   "word": "Australia",
+   "phonetic": "/ɒˈstreɪliə/",
+   "pos": "Unit 1",
+   "meaning": "澳大利亚"
+  },
+  {
+   "word": "Mapo tofu",
+   "phonetic": "",
+   "pos": "Unit 1",
+   "meaning": "麻婆豆腐"
+  },
+  {
+   "word": "Beijing roast duck",
+   "phonetic": "/ˈrəʊst/",
+   "pos": "Unit 1",
+   "meaning": "北京烤鸭"
+  },
+  {
+   "word": "Singapore",
+   "phonetic": "/ˌsɪŋəˈpɔː(r)/",
+   "pos": "Unit 1",
+   "meaning": "新加坡"
+  },
+  {
+   "word": "the Great Wall",
+   "phonetic": "",
+   "pos": "Unit 1",
+   "meaning": "长城"
+  },
+  {
+   "word": "Pauline",
+   "phonetic": "/pɔːˈliːn/",
+   "pos": "Unit 1",
+   "meaning": "保利娜"
+  },
+  {
+   "word": "Lee",
+   "phonetic": "/liː/",
+   "pos": "Unit 1",
+   "meaning": "李"
+  },
+  {
+   "word": "Coco",
+   "phonetic": "/ˈkəʊkəʊ/",
+   "pos": "Unit 1",
+   "meaning": "科科"
+  },
+  {
+   "word": "London",
+   "phonetic": "/ˈlʌndən/",
+   "pos": "Unit 1",
+   "meaning": "伦敦（英国首都）"
+  },
+  {
+   "word": "mean",
+   "phonetic": "/miːn/",
+   "pos": "v. · Unit 2",
+   "meaning": "意思是；打算"
+  },
+  {
+   "word": "husband",
+   "phonetic": "/ˈhʌzbənd/",
+   "pos": "n. · Unit 2",
+   "meaning": "丈夫"
+  },
+  {
+   "word": "bat",
+   "phonetic": "/bæt/",
+   "pos": "n. · Unit 2",
+   "meaning": "球棒；球拍"
+  },
+  {
+   "word": "ping-pong bat",
+   "phonetic": "",
+   "pos": "Unit 2",
+   "meaning": "乒乓球拍"
+  },
+  {
+   "word": "play ping-pong",
+   "phonetic": "",
+   "pos": "Unit 2",
+   "meaning": "打乒乓球"
+  },
+  {
+   "word": "together",
+   "phonetic": "/təˈɡeðə(r)/",
+   "pos": "adv. · Unit 2",
+   "meaning": "在一起；共同"
+  },
+  {
+   "word": "every day",
+   "phonetic": "",
+   "pos": "Unit 2",
+   "meaning": "每天"
+  },
+  {
+   "word": "spend",
+   "phonetic": "/spend/",
+   "pos": "v. · Unit 2",
+   "meaning": "花（时间、钱等）"
+  },
+  {
+   "word": "a lot of / lots of",
+   "phonetic": "",
+   "pos": "Unit 2",
+   "meaning": "大量；许多"
+  },
+  {
+   "word": "hey",
+   "phonetic": "/heɪ/",
+   "pos": "interj. · Unit 2",
+   "meaning": "嘿；喂"
+  },
+  {
+   "word": "really",
+   "phonetic": "/ˈriːəli/",
+   "pos": "adv. · Unit 2",
+   "meaning": "非常；确实；真正地"
+  },
+  {
+   "word": "member",
+   "phonetic": "/ˈmembə(r)/",
+   "pos": "n. · Unit 2",
+   "meaning": "成员；会员"
+  },
+  {
+   "word": "activity",
+   "phonetic": "/ækˈtɪvəti/",
+   "pos": "n. · Unit 2",
+   "meaning": "活动"
+  },
+  {
+   "word": "chess",
+   "phonetic": "/tʃes/",
+   "pos": "n. · Unit 2",
+   "meaning": "国际象棋"
+  },
+  {
+   "word": "Chinese chess",
+   "phonetic": "",
+   "pos": "Unit 2",
+   "meaning": "中国象棋"
+  },
+  {
+   "word": "a lot",
+   "phonetic": "",
+   "pos": "Unit 2",
+   "meaning": "很；非常"
+  },
+  {
+   "word": "grandparent",
+   "phonetic": "/ˈɡrænpeərənt/",
+   "pos": "n. · Unit 2",
+   "meaning": "祖父（母）；外祖父（母）"
+  },
+  {
+   "word": "funny",
+   "phonetic": "/ˈfʌni/",
+   "pos": "adj. · Unit 2",
+   "meaning": "好笑的；奇怪的"
+  },
+  {
+   "word": "laugh",
+   "phonetic": "/lɑːf/",
+   "pos": "v. & n. · Unit 2",
+   "meaning": "笑；发笑；笑声"
+  },
+  {
+   "word": "different",
+   "phonetic": "/ˈdɪfrənt/",
+   "pos": "adj. · Unit 2",
+   "meaning": "不同的"
+  },
+  {
+   "word": "have fun",
+   "phonetic": "",
+   "pos": "Unit 2",
+   "meaning": "玩得高兴"
+  },
+  {
+   "word": "hat",
+   "phonetic": "/hæt/",
+   "pos": "n. · Unit 2",
+   "meaning": "帽子"
+  },
+  {
+   "word": "handsome",
+   "phonetic": "/ˈhænsəm/",
+   "pos": "adj. · Unit 2",
+   "meaning": "英俊的"
+  },
+  {
+   "word": "knee",
+   "phonetic": "/niː/",
+   "pos": "n. · Unit 2",
+   "meaning": "膝；膝盖"
+  },
+  {
+   "word": "at night",
+   "phonetic": "",
+   "pos": "Unit 2",
+   "meaning": "在夜晚"
+  },
+  {
+   "word": "grandchild",
+   "phonetic": "/ˈɡræntʃaɪld/",
+   "pos": "n. · Unit 2",
+   "meaning": "(外)孙子；(外)孙女"
+  },
+  {
+   "word": "son",
+   "phonetic": "/sʌn/",
+   "pos": "n. · Unit 2",
+   "meaning": "儿子"
+  },
+  {
+   "word": "listen to",
+   "phonetic": "",
+   "pos": "Unit 2",
+   "meaning": "听；倾听"
+  },
+  {
+   "word": "next to",
+   "phonetic": "",
+   "pos": "Unit 2",
+   "meaning": "紧邻；在……近旁"
+  },
+  {
+   "word": "David",
+   "phonetic": "/ˈdeɪvɪd/",
+   "pos": "Unit 2",
+   "meaning": "戴维"
+  },
+  {
+   "word": "Jim",
+   "phonetic": "/dʒɪm/",
+   "pos": "Unit 2",
+   "meaning": "吉姆"
+  },
+  {
+   "word": "Kate",
+   "phonetic": "/keɪt/",
+   "pos": "Unit 2",
+   "meaning": "凯特"
+  },
+  {
+   "word": "Lily",
+   "phonetic": "/ˈlɪli/",
+   "pos": "Unit 2",
+   "meaning": "莉莉"
+  },
+  {
+   "word": "Ireland",
+   "phonetic": "/ˈaɪələnd/",
+   "pos": "Unit 2",
+   "meaning": "爱尔兰"
+  },
+  {
+   "word": "Fred",
+   "phonetic": "/fred/",
+   "pos": "Unit 2",
+   "meaning": "弗雷德"
+  },
+  {
+   "word": "Sam",
+   "phonetic": "/sæm/",
+   "pos": "Unit 2",
+   "meaning": "萨姆"
+  },
+  {
+   "word": "Jane",
+   "phonetic": "/dʒeɪn/",
+   "pos": "Unit 2",
+   "meaning": "简"
+  },
+  {
+   "word": "Jack",
+   "phonetic": "/dʒæk/",
+   "pos": "Unit 2",
+   "meaning": "杰克"
+  },
+  {
+   "word": "Sarah",
+   "phonetic": "/ˈseərə/",
+   "pos": "Unit 2",
+   "meaning": "萨拉"
+  },
+  {
+   "word": "Oscar",
+   "phonetic": "/ˈɒskə(r)/",
+   "pos": "Unit 2",
+   "meaning": "奥斯卡"
+  },
+  {
+   "word": "Lucy",
+   "phonetic": "/ˈluːsi/",
+   "pos": "Unit 2",
+   "meaning": "露西"
+  },
+  {
+   "word": "hall",
+   "phonetic": "/hɔːl/",
+   "pos": "n. · Unit 3",
+   "meaning": "礼堂；大厅"
+  },
+  {
+   "word": "dining hall",
+   "phonetic": "/ˈdaɪnɪŋ/",
+   "pos": "Unit 3",
+   "meaning": "餐厅"
+  },
+  {
+   "word": "in front of",
+   "phonetic": "",
+   "pos": "Unit 3",
+   "meaning": "在……前面"
+  },
+  {
+   "word": "building",
+   "phonetic": "/ˈbɪldɪŋ/",
+   "pos": "n. · Unit 3",
+   "meaning": "建筑物；房子"
+  },
+  {
+   "word": "in the middle of",
+   "phonetic": "",
+   "pos": "Unit 3",
+   "meaning": "在……中间"
+  },
+  {
+   "word": "across",
+   "phonetic": "/əˈkrɒs/",
+   "pos": "adv. & prep. · Unit 3",
+   "meaning": "在(……)对面；横过"
+  },
+  {
+   "word": "across from",
+   "phonetic": "",
+   "pos": "Unit 3",
+   "meaning": "在对面"
+  },
+  {
+   "word": "centre",
+   "phonetic": "/ˈsentə(r)/",
+   "pos": "n. · Unit 3",
+   "meaning": "中心；中央"
+  },
+  {
+   "word": "gym",
+   "phonetic": "/dʒɪm/",
+   "pos": "n. · Unit 3",
+   "meaning": "体育馆，健身房；(尤指学校的)体育活动"
+  },
+  {
+   "word": "field",
+   "phonetic": "/fiːld/",
+   "pos": "n. · Unit 3",
+   "meaning": "场地；田地"
+  },
+  {
+   "word": "sports field",
+   "phonetic": "",
+   "pos": "Unit 3",
+   "meaning": "运动场"
+  },
+  {
+   "word": "office",
+   "phonetic": "/ˈɒfɪs/",
+   "pos": "n. · Unit 3",
+   "meaning": "办公室"
+  },
+  {
+   "word": "large",
+   "phonetic": "/lɑːdʒ/",
+   "pos": "adj. · Unit 3",
+   "meaning": "大的；大号的"
+  },
+  {
+   "word": "special",
+   "phonetic": "/ˈspeʃl/",
+   "pos": "adj. · Unit 3",
+   "meaning": "特别的；特殊的"
+  },
+  {
+   "word": "smart",
+   "phonetic": "/smɑːt/",
+   "pos": "adj. · Unit 3",
+   "meaning": "智能的；聪明的"
+  },
+  {
+   "word": "whiteboard",
+   "phonetic": "/ˈwaɪtbɔːd/",
+   "pos": "n. · Unit 3",
+   "meaning": "白板；白色书写板"
+  },
+  {
+   "word": "put up",
+   "phonetic": "",
+   "pos": "Unit 3",
+   "meaning": "张贴；搭建；举起"
+  },
+  {
+   "word": "important",
+   "phonetic": "/ɪmˈpɔːtnt/",
+   "pos": "adj. · Unit 3",
+   "meaning": "重要的"
+  },
+  {
+   "word": "notice",
+   "phonetic": "/ˈnəʊtɪs/",
+   "pos": "n. & v. · Unit 3",
+   "meaning": "通知；注意；注意到；意识到"
+  },
+  {
+   "word": "locker",
+   "phonetic": "/ˈlɒkə(r)/",
+   "pos": "n. · Unit 3",
+   "meaning": "有锁存物柜；寄物柜"
+  },
+  {
+   "word": "drawer",
+   "phonetic": "/drɔː(r)/",
+   "pos": "n. · Unit 3",
+   "meaning": "抽屉"
+  },
+  {
+   "word": "at the back (of)",
+   "phonetic": "",
+   "pos": "Unit 3",
+   "meaning": "在(……)后面"
+  },
+  {
+   "word": "corner",
+   "phonetic": "/ˈkɔːnə(r)/",
+   "pos": "n. · Unit 3",
+   "meaning": "角；墙角；街角"
+  },
+  {
+   "word": "bookcase",
+   "phonetic": "/ˈbʊkkeɪs/",
+   "pos": "n. · Unit 3",
+   "meaning": "书架；书柜"
+  },
+  {
+   "word": "screen",
+   "phonetic": "/skriːn/",
+   "pos": "n. · Unit 3",
+   "meaning": "屏幕；银幕"
+  },
+  {
+   "word": "at school",
+   "phonetic": "",
+   "pos": "Unit 3",
+   "meaning": "在学校"
+  },
+  {
+   "word": "different from",
+   "phonetic": "",
+   "pos": "Unit 3",
+   "meaning": "与……不一样"
+  },
+  {
+   "word": "modern",
+   "phonetic": "/ˈmɒdn/",
+   "pos": "adj. · Unit 3",
+   "meaning": "现代的；当代的"
+  },
+  {
+   "word": "do exercises",
+   "phonetic": "",
+   "pos": "Unit 3",
+   "meaning": "做体操"
+  },
+  {
+   "word": "amazing",
+   "phonetic": "/əˈmeɪzɪŋ/",
+   "pos": "adj. · Unit 3",
+   "meaning": "令人惊奇(惊喜或惊叹)的"
+  },
+  {
+   "word": "raise",
+   "phonetic": "/reɪz/",
+   "pos": "v. · Unit 3",
+   "meaning": "使升高；提高"
+  },
+  {
+   "word": "flag",
+   "phonetic": "/flæɡ/",
+   "pos": "n. · Unit 3",
+   "meaning": "旗；旗帜"
+  },
+  {
+   "word": "most",
+   "phonetic": "/məʊst/",
+   "pos": "adj. & pron. & adv. · Unit 3",
+   "meaning": "大多数；最多；最大；最"
+  },
+  {
+   "word": "change",
+   "phonetic": "/tʃeɪndʒ/",
+   "pos": "v. & n. · Unit 3",
+   "meaning": "改变；变化"
+  },
+  {
+   "word": "seat",
+   "phonetic": "/siːt/",
+   "pos": "n. · Unit 3",
+   "meaning": "座位"
+  },
+  {
+   "word": "delicious",
+   "phonetic": "/dɪˈlɪʃəs/",
+   "pos": "adj. · Unit 3",
+   "meaning": "美味的；可口的"
+  },
+  {
+   "word": "How about ...?",
+   "phonetic": "",
+   "pos": "Unit 3",
+   "meaning": "……怎么样?"
+  },
+  {
+   "word": "yours",
+   "phonetic": "/jɔːz/",
+   "pos": "pron. · Unit 3",
+   "meaning": "(通常写作 Yours, 用于书信结尾的签名前) 你的；您的"
+  },
+  {
+   "word": "send",
+   "phonetic": "/send/",
+   "pos": "v. · Unit 3",
+   "meaning": "发送；邮寄"
+  },
+  {
+   "word": "similar",
+   "phonetic": "/ˈsɪmələ(r)/",
+   "pos": "adj. · Unit 3",
+   "meaning": "类似的；相像的"
+  },
+  {
+   "word": "similar to",
+   "phonetic": "",
+   "pos": "Unit 3",
+   "meaning": "和……相似"
+  },
+  {
+   "word": "sound",
+   "phonetic": "/saʊnd/",
+   "pos": "v. & n. · Unit 3",
+   "meaning": "听起来；好像；声音；响声"
+  },
+  {
+   "word": "bye for now",
+   "phonetic": "",
+   "pos": "Unit 3",
+   "meaning": "再见"
+  },
+  {
+   "word": "Flora",
+   "phonetic": "/ˈflɔːrə/",
+   "pos": "Unit 3",
+   "meaning": "弗洛拉"
+  },
+  {
+   "word": "biology",
+   "phonetic": "/baɪˈɒlədʒi/",
+   "pos": "n. · Unit 4",
+   "meaning": "生物学"
+  },
+  {
+   "word": "IT",
+   "phonetic": "/ˌaɪ ˈtiː/",
+   "pos": "Unit 4",
+   "meaning": "信息技术（= information technology）"
+  },
+  {
+   "word": "geography",
+   "phonetic": "/dʒiˈɒɡrəfi/",
+   "pos": "n. · Unit 4",
+   "meaning": "地理（学）"
+  },
+  {
+   "word": "history",
+   "phonetic": "/ˈhɪstri/",
+   "pos": "n. · Unit 4",
+   "meaning": "历史；历史课"
+  },
+  {
+   "word": "boring",
+   "phonetic": "/ˈbɔːrɪŋ/",
+   "pos": "adj. · Unit 4",
+   "meaning": "乏味的；令人生厌的"
+  },
+  {
+   "word": "useful",
+   "phonetic": "/ˈjuːsfl/",
+   "pos": "adj. · Unit 4",
+   "meaning": "有用的；有益的"
+  },
+  {
+   "word": "exciting",
+   "phonetic": "/ɪkˈsaɪtɪŋ/",
+   "pos": "adj. · Unit 4",
+   "meaning": "令人激动的；使人兴奋的"
+  },
+  {
+   "word": "past",
+   "phonetic": "/pɑːst/",
+   "pos": "n. & adj. & prep. · Unit 4",
+   "meaning": "过去；过去的事情；过去的；在……之后"
+  },
+  {
+   "word": "good with",
+   "phonetic": "",
+   "pos": "Unit 4",
+   "meaning": "善于应付……的"
+  },
+  {
+   "word": "number",
+   "phonetic": "/ˈnʌmbə(r)/",
+   "pos": "n. · Unit 4",
+   "meaning": "数字；号码"
+  },
+  {
+   "word": "help sb with",
+   "phonetic": "",
+   "pos": "Unit 4",
+   "meaning": "帮助某人做（某事）"
+  },
+  {
+   "word": "reason",
+   "phonetic": "/ˈriːzn/",
+   "pos": "n. · Unit 4",
+   "meaning": "原因；理由"
+  },
+  {
+   "word": "good at",
+   "phonetic": "",
+   "pos": "Unit 4",
+   "meaning": "擅长"
+  },
+  {
+   "word": "remember",
+   "phonetic": "/rɪˈmembə(r)/",
+   "pos": "v. · Unit 4",
+   "meaning": "记住；记起"
+  },
+  {
+   "word": "as",
+   "phonetic": "/æz; əz/",
+   "pos": "prep. & conj. · Unit 4",
+   "meaning": "如同；作为；当……时；由于"
+  },
+  {
+   "word": "AM",
+   "phonetic": "/ˌeɪ ˈem/",
+   "pos": "Unit 4",
+   "meaning": "上午（= a.m.）"
+  },
+  {
+   "word": "PM",
+   "phonetic": "/ˌpiː ˈem/",
+   "pos": "Unit 4",
+   "meaning": "下午；午后（= p.m.）"
+  },
+  {
+   "word": "French",
+   "phonetic": "/frentʃ/",
+   "pos": "n. & adj. · Unit 4",
+   "meaning": "法语；法国的；法国人的；法语的"
+  },
+  {
+   "word": "excellent",
+   "phonetic": "/ˈeksələnt/",
+   "pos": "adj. · Unit 4",
+   "meaning": "优秀的；极好的"
+  },
+  {
+   "word": "instrument",
+   "phonetic": "/ˈɪnstrəmənt/",
+   "pos": "n. · Unit 4",
+   "meaning": "乐器；器械；工具"
+  },
+  {
+   "word": "singer",
+   "phonetic": "/ˈsɪŋə(r)/",
+   "pos": "n. · Unit 4",
+   "meaning": "歌手"
+  },
+  {
+   "word": "future",
+   "phonetic": "/ˈfjuːtʃə(r)/",
+   "pos": "n. · Unit 4",
+   "meaning": "将来；未来"
+  },
+  {
+   "word": "in the future",
+   "phonetic": "",
+   "pos": "Unit 4",
+   "meaning": "将来；未来"
+  },
+  {
+   "word": "term",
+   "phonetic": "/tɜːm/",
+   "pos": "n. · Unit 4",
+   "meaning": "学期"
+  },
+  {
+   "word": "work out",
+   "phonetic": "",
+   "pos": "Unit 4",
+   "meaning": "计算出；解决"
+  },
+  {
+   "word": "problem",
+   "phonetic": "/ˈprɒbləm/",
+   "pos": "n. · Unit 4",
+   "meaning": "难题；困难"
+  },
+  {
+   "word": "in class",
+   "phonetic": "",
+   "pos": "Unit 4",
+   "meaning": "在课堂上"
+  },
+  {
+   "word": "magic",
+   "phonetic": "/ˈmædʒɪk/",
+   "pos": "n. & adj. · Unit 4",
+   "meaning": "魔法；魔力；魔术；有魔力的；有神奇力量的"
+  },
+  {
+   "word": "life",
+   "phonetic": "/laɪf/",
+   "pos": "n. · Unit 4",
+   "meaning": "生活；生命"
+  },
+  {
+   "word": "scientist",
+   "phonetic": "/ˈsaɪəntɪst/",
+   "pos": "n. · Unit 4",
+   "meaning": "科学家"
+  },
+  {
+   "word": "both",
+   "phonetic": "/bəʊθ/",
+   "pos": "pron. & adj. · Unit 4",
+   "meaning": "两个；两个都"
+  },
+  {
+   "word": "Baker",
+   "phonetic": "/ˈbeɪkə(r)/",
+   "pos": "Unit 4",
+   "meaning": "贝克"
+  },
+  {
+   "word": "Mike",
+   "phonetic": "/maɪk/",
+   "pos": "Unit 4",
+   "meaning": "迈克"
+  },
+  {
+   "word": "Davis",
+   "phonetic": "/ˈdeɪvɪs/",
+   "pos": "Unit 4",
+   "meaning": "戴维斯"
+  },
+  {
+   "word": "Canada",
+   "phonetic": "/ˈkænədə/",
+   "pos": "Unit 4",
+   "meaning": "加拿大"
+  },
+  {
+   "word": "club",
+   "phonetic": "/klʌb/",
+   "pos": "n. · Unit 5",
+   "meaning": "俱乐部；社团"
+  },
+  {
+   "word": "join",
+   "phonetic": "/dʒɔɪn/",
+   "pos": "v. · Unit 5",
+   "meaning": "参加；加入"
+  },
+  {
+   "word": "choose",
+   "phonetic": "/tʃuːz/",
+   "pos": "v. · Unit 5",
+   "meaning": "选择；挑选"
+  },
+  {
+   "word": "drama",
+   "phonetic": "/ˈdrɑːmə/",
+   "pos": "n. · Unit 5",
+   "meaning": "戏剧；戏剧表演"
+  },
+  {
+   "word": "play Chinese chess",
+   "phonetic": "",
+   "pos": "Unit 5",
+   "meaning": "下中国象棋"
+  },
+  {
+   "word": "feeling",
+   "phonetic": "/ˈfiːlɪŋ/",
+   "pos": "n. · Unit 5",
+   "meaning": "感觉；情感"
+  },
+  {
+   "word": "news",
+   "phonetic": "/njuːz/",
+   "pos": "n. · Unit 5",
+   "meaning": "消息；新闻"
+  },
+  {
+   "word": "musical",
+   "phonetic": "/ˈmjuːzɪkl/",
+   "pos": "adj. · Unit 5",
+   "meaning": "音乐的；有音乐天赋的"
+  },
+  {
+   "word": "musical instrument",
+   "phonetic": "",
+   "pos": "Unit 5",
+   "meaning": "乐器"
+  },
+  {
+   "word": "exactly",
+   "phonetic": "/ɪɡˈzæktli/",
+   "pos": "adv. · Unit 5",
+   "meaning": "正是如此；准确地"
+  },
+  {
+   "word": "violin",
+   "phonetic": "/ˌvaɪəˈlɪn/",
+   "pos": "n. · Unit 5",
+   "meaning": "小提琴"
+  },
+  {
+   "word": "drum",
+   "phonetic": "/drʌm/",
+   "pos": "n. · Unit 5",
+   "meaning": "鼓"
+  },
+  {
+   "word": "ability",
+   "phonetic": "/əˈbɪləti/",
+   "pos": "n. · Unit 5",
+   "meaning": "能力；才能"
+  },
+  {
+   "word": "paint",
+   "phonetic": "/peɪnt/",
+   "pos": "v. & n. · Unit 5",
+   "meaning": "用颜料画；在……上刷油漆；油漆；涂料"
+  },
+  {
+   "word": "climb",
+   "phonetic": "/klaɪm/",
+   "pos": "v. · Unit 5",
+   "meaning": "攀登；爬"
+  },
+  {
+   "word": "even",
+   "phonetic": "/ˈiːvn/",
+   "pos": "adv. · Unit 5",
+   "meaning": "甚至；连；愈加"
+  },
+  {
+   "word": "more",
+   "phonetic": "/mɔː(r)/",
+   "pos": "adj. & pron. · Unit 5",
+   "meaning": "更多（的）"
+  },
+  {
+   "word": "act",
+   "phonetic": "/ækt/",
+   "pos": "v. & n. · Unit 5",
+   "meaning": "扮演；行动；（戏剧等）一幕；行动"
+  },
+  {
+   "word": "act out",
+   "phonetic": "",
+   "pos": "Unit 5",
+   "meaning": "表演"
+  },
+  {
+   "word": "at home",
+   "phonetic": "",
+   "pos": "Unit 5",
+   "meaning": "在家里"
+  },
+  {
+   "word": "interested",
+   "phonetic": "/ˈɪntrəstɪd/",
+   "pos": "adj. · Unit 5",
+   "meaning": "感兴趣的"
+  },
+  {
+   "word": "interested in",
+   "phonetic": "",
+   "pos": "Unit 5",
+   "meaning": "对……感兴趣"
+  },
+  {
+   "word": "nature",
+   "phonetic": "/ˈneɪtʃə(r)/",
+   "pos": "n. · Unit 5",
+   "meaning": "自然界；大自然"
+  },
+  {
+   "word": "hike",
+   "phonetic": "/haɪk/",
+   "pos": "v. & n. · Unit 5",
+   "meaning": "远足；徒步旅行"
+  },
+  {
+   "word": "beef",
+   "phonetic": "/biːf/",
+   "pos": "n. · Unit 5",
+   "meaning": "牛肉"
+  },
+  {
+   "word": "soon",
+   "phonetic": "/suːn/",
+   "pos": "adv. · Unit 5",
+   "meaning": "不久；很快"
+  },
+  {
+   "word": "than",
+   "phonetic": "/ðæn; ðən/",
+   "pos": "prep. & conj. · Unit 5",
+   "meaning": "（用以引出比较的第二部分）比"
+  },
+  {
+   "word": "more than",
+   "phonetic": "",
+   "pos": "Unit 5",
+   "meaning": "多于"
+  },
+  {
+   "word": "mind",
+   "phonetic": "/maɪnd/",
+   "pos": "n. · Unit 5",
+   "meaning": "头脑；心思"
+  },
+  {
+   "word": "fall",
+   "phonetic": "/fɔːl/",
+   "pos": "v. & n. · Unit 5",
+   "meaning": "进入；掉落；跌倒；（美式）秋天"
+  },
+  {
+   "word": "fall in love with",
+   "phonetic": "",
+   "pos": "Unit 5",
+   "meaning": "爱上……"
+  },
+  {
+   "word": "take photos",
+   "phonetic": "",
+   "pos": "Unit 5",
+   "meaning": "拍照"
+  },
+  {
+   "word": "collect",
+   "phonetic": "/kəˈlekt/",
+   "pos": "v. · Unit 5",
+   "meaning": "收集；采集"
+  },
+  {
+   "word": "insect",
+   "phonetic": "/ˈɪnsekt/",
+   "pos": "n. · Unit 5",
+   "meaning": "昆虫"
+  },
+  {
+   "word": "discover",
+   "phonetic": "/dɪˈskʌvə(r)/",
+   "pos": "v. · Unit 5",
+   "meaning": "发现；发觉"
+  },
+  {
+   "word": "wildlife",
+   "phonetic": "/ˈwaɪldlaɪf/",
+   "pos": "n. · Unit 5",
+   "meaning": "野生动物；野生生物"
+  },
+  {
+   "word": "Linda",
+   "phonetic": "/ˈlɪndə/",
+   "pos": "Unit 5",
+   "meaning": "琳达"
+  },
+  {
+   "word": "Alice",
+   "phonetic": "/ˈælɪs/",
+   "pos": "Unit 5",
+   "meaning": "爱丽丝"
+  },
+  {
+   "word": "Bill",
+   "phonetic": "/bɪl/",
+   "pos": "Unit 5",
+   "meaning": "比尔"
+  },
+  {
+   "word": "Jenny",
+   "phonetic": "/ˈdʒeni/",
+   "pos": "Unit 5",
+   "meaning": "珍妮"
+  },
+  {
+   "word": "make use of",
+   "phonetic": "",
+   "pos": "Unit 6",
+   "meaning": "使用……；利用……"
+  },
+  {
+   "word": "quarter",
+   "phonetic": "/ˈkwɔːtə(r)/",
+   "pos": "n. · Unit 6",
+   "meaning": "一刻钟；四等份之一"
+  },
+  {
+   "word": "shower",
+   "phonetic": "/ˈʃaʊə(r)/",
+   "pos": "n. & v. · Unit 6",
+   "meaning": "淋浴；淋浴器；阵雨；洗淋浴"
+  },
+  {
+   "word": "take a shower",
+   "phonetic": "",
+   "pos": "Unit 6",
+   "meaning": "淋浴"
+  },
+  {
+   "word": "get dressed",
+   "phonetic": "",
+   "pos": "Unit 6",
+   "meaning": "穿衣服"
+  },
+  {
+   "word": "brush",
+   "phonetic": "/brʌʃ/",
+   "pos": "v. & n. · Unit 6",
+   "meaning": "（用刷子）刷；刷子；画笔"
+  },
+  {
+   "word": "tooth",
+   "phonetic": "/tuːθ/ (pl. teeth /tiːθ/)",
+   "pos": "n. · Unit 6",
+   "meaning": "牙齿"
+  },
+  {
+   "word": "duty",
+   "phonetic": "/ˈdjuːti/",
+   "pos": "n. · Unit 6",
+   "meaning": "值班；职责"
+  },
+  {
+   "word": "on duty",
+   "phonetic": "",
+   "pos": "Unit 6",
+   "meaning": "值班"
+  },
+  {
+   "word": "usually",
+   "phonetic": "/ˈjuːʒuəli/",
+   "pos": "adv. · Unit 6",
+   "meaning": "通常地；一般地"
+  },
+  {
+   "word": "get up",
+   "phonetic": "",
+   "pos": "Unit 6",
+   "meaning": "起床；站起"
+  },
+  {
+   "word": "reporter",
+   "phonetic": "/rɪˈpɔːtə(r)/",
+   "pos": "n. · Unit 6",
+   "meaning": "记者"
+  },
+  {
+   "word": "around",
+   "phonetic": "/əˈraʊnd/",
+   "pos": "adv. & prep. · Unit 6",
+   "meaning": "大约；环绕；到处"
+  },
+  {
+   "word": "homework",
+   "phonetic": "/ˈhəʊmwɜːk/",
+   "pos": "n. · Unit 6",
+   "meaning": "家庭作业"
+  },
+  {
+   "word": "go to bed",
+   "phonetic": "",
+   "pos": "Unit 6",
+   "meaning": "上床睡觉"
+  },
+  {
+   "word": "saying",
+   "phonetic": "/ˈseɪɪŋ/",
+   "pos": "n. · Unit 6",
+   "meaning": "谚语；格言"
+  },
+  {
+   "word": "rise",
+   "phonetic": "/raɪz/",
+   "pos": "v. & n. · Unit 6",
+   "meaning": "起床；升起；增长；增加；增强"
+  },
+  {
+   "word": "stay",
+   "phonetic": "/steɪ/",
+   "pos": "v. · Unit 6",
+   "meaning": "停留；保持"
+  },
+  {
+   "word": "routine",
+   "phonetic": "/ruːˈtiːn/",
+   "pos": "n. · Unit 6",
+   "meaning": "常规"
+  },
+  {
+   "word": "restaurant",
+   "phonetic": "/ˈrestrɒnt/",
+   "pos": "n. · Unit 6",
+   "meaning": "餐馆；餐厅"
+  },
+  {
+   "word": "housework",
+   "phonetic": "/ˈhaʊswɜːk/",
+   "pos": "n. · Unit 6",
+   "meaning": "家务劳动"
+  },
+  {
+   "word": "while",
+   "phonetic": "/waɪl/",
+   "pos": "n. & conj. · Unit 6",
+   "meaning": "一段时间；一会儿；在……期间；当……的时候"
+  },
+  {
+   "word": "weekend",
+   "phonetic": "/ˌwiːkˈend/",
+   "pos": "n. · Unit 6",
+   "meaning": "周末"
+  },
+  {
+   "word": "at weekends",
+   "phonetic": "",
+   "pos": "Unit 6",
+   "meaning": "在周末"
+  },
+  {
+   "word": "daily",
+   "phonetic": "/ˈdeɪli/",
+   "pos": "adj. · Unit 6",
+   "meaning": "每日的；日常的"
+  },
+  {
+   "word": "daily routine",
+   "phonetic": "",
+   "pos": "Unit 6",
+   "meaning": "日常生活"
+  },
+  {
+   "word": "only",
+   "phonetic": "/ˈəʊnli/",
+   "pos": "adv. · Unit 6",
+   "meaning": "只；仅"
+  },
+  {
+   "word": "break",
+   "phonetic": "/breɪk/",
+   "pos": "n. & v. · Unit 6",
+   "meaning": "休息；间断；(使) 破碎；损坏"
+  },
+  {
+   "word": "Finnish",
+   "phonetic": "/ˈfɪnɪʃ/",
+   "pos": "n. & adj. · Unit 6",
+   "meaning": "芬兰语；芬兰的；芬兰人的；芬兰语的"
+  },
+  {
+   "word": "finish",
+   "phonetic": "/ˈfɪnɪʃ/",
+   "pos": "v. · Unit 6",
+   "meaning": "结束；完成"
+  },
+  {
+   "word": "hockey",
+   "phonetic": "/ˈhɒki/",
+   "pos": "n. · Unit 6",
+   "meaning": "曲棍球"
+  },
+  {
+   "word": "ice hockey",
+   "phonetic": "",
+   "pos": "Unit 6",
+   "meaning": "冰球运动；冰上曲棍球"
+  },
+  {
+   "word": "already",
+   "phonetic": "/ɔːlˈredi/",
+   "pos": "adv. · Unit 6",
+   "meaning": "已经；早已"
+  },
+  {
+   "word": "dark",
+   "phonetic": "/dɑːk/",
+   "pos": "adj. · Unit 6",
+   "meaning": "昏暗的；深色的"
+  },
+  {
+   "word": "outside",
+   "phonetic": "/ˌaʊtˈsaɪd/",
+   "pos": "adv. & prep. & adj. · Unit 6",
+   "meaning": "在（……）外面；外面的"
+  },
+  {
+   "word": "part",
+   "phonetic": "/pɑːt/",
+   "pos": "n. · Unit 6",
+   "meaning": "部分"
+  },
+  {
+   "word": "everyday",
+   "phonetic": "/ˈevrideɪ/",
+   "pos": "adj. · Unit 6",
+   "meaning": "每天的；日常的"
+  },
+  {
+   "word": "prepare",
+   "phonetic": "/prɪˈpeə(r)/",
+   "pos": "v. · Unit 6",
+   "meaning": "把……预备好；准备"
+  },
+  {
+   "word": "prepare sth for",
+   "phonetic": "",
+   "pos": "Unit 6",
+   "meaning": "为……把某物准备好"
+  },
+  {
+   "word": "Timo",
+   "phonetic": "/ˈtiːməʊ/",
+   "pos": "Unit 6",
+   "meaning": "苔莫"
+  },
+  {
+   "word": "Halla",
+   "phonetic": "/ˈhɑːlə/",
+   "pos": "Unit 6",
+   "meaning": "哈拉"
+  },
+  {
+   "word": "Helsinki",
+   "phonetic": "/ˈhelsɪŋki/",
+   "pos": "Unit 6",
+   "meaning": "赫尔辛基（芬兰首都）"
+  },
+  {
+   "word": "Finland",
+   "phonetic": "/ˈfɪnlənd/",
+   "pos": "Unit 6",
+   "meaning": "芬兰"
+  },
+  {
+   "word": "home economics",
+   "phonetic": "/ˌiːkəˈnɒmɪks/",
+   "pos": "Unit 6",
+   "meaning": "家政学；家庭经济学"
+  },
+  {
+   "word": "celebrate",
+   "phonetic": "/ˈselɪbreɪt/",
+   "pos": "v. · Unit 7",
+   "meaning": "庆祝；庆贺"
+  },
+  {
+   "word": "surprise",
+   "phonetic": "/səˈpraɪz/",
+   "pos": "n. & v. · Unit 7",
+   "meaning": "惊奇；惊讶；使感到意外"
+  },
+  {
+   "word": "something",
+   "phonetic": "/ˈsʌmθɪŋ/",
+   "pos": "pron. · Unit 7",
+   "meaning": "某事；某物"
+  },
+  {
+   "word": "sale",
+   "phonetic": "/seɪl/",
+   "pos": "n. · Unit 7",
+   "meaning": "出售；销售"
+  },
+  {
+   "word": "kilo",
+   "phonetic": "/ˈkiːləʊ/",
+   "pos": "n. · Unit 7",
+   "meaning": "千克；公斤（= kilogram, kilogramme）"
+  },
+  {
+   "word": "yogurt",
+   "phonetic": "/ˈjɒɡət/",
+   "pos": "n. · Unit 7",
+   "meaning": "酸奶（= yoghurt）"
+  },
+  {
+   "word": "total",
+   "phonetic": "/ˈtəʊtl/",
+   "pos": "n. & adj. · Unit 7",
+   "meaning": "总数；合计；总的；全体的"
+  },
+  {
+   "word": "price",
+   "phonetic": "/praɪs/",
+   "pos": "n. · Unit 7",
+   "meaning": "价格"
+  },
+  {
+   "word": "balloon",
+   "phonetic": "/bəˈluːn/",
+   "pos": "n. · Unit 7",
+   "meaning": "气球"
+  },
+  {
+   "word": "chocolate",
+   "phonetic": "/ˈtʃɒklət/",
+   "pos": "n. · Unit 7",
+   "meaning": "巧克力"
+  },
+  {
+   "word": "pizza",
+   "phonetic": "/ˈpiːtsə/",
+   "pos": "n. · Unit 7",
+   "meaning": "比萨饼"
+  },
+  {
+   "word": "list",
+   "phonetic": "/lɪst/",
+   "pos": "n. & v. · Unit 7",
+   "meaning": "名单；清单；列表；列清单"
+  },
+  {
+   "word": "own",
+   "phonetic": "/əʊn/",
+   "pos": "adj. & pron. · Unit 7",
+   "meaning": "自己的；本人的"
+  },
+  {
+   "word": "example",
+   "phonetic": "/ɪɡˈzɑːmpl/",
+   "pos": "n. · Unit 7",
+   "meaning": "例子；范例"
+  },
+  {
+   "word": "for example",
+   "phonetic": "",
+   "pos": "Unit 7",
+   "meaning": "例如"
+  },
+  {
+   "word": "language",
+   "phonetic": "/ˈlæŋɡwɪdʒ/",
+   "pos": "n. · Unit 7",
+   "meaning": "语言"
+  },
+  {
+   "word": "international",
+   "phonetic": "/ˌɪntəˈnæʃnəl/",
+   "pos": "adj. · Unit 7",
+   "meaning": "国际的"
+  },
+  {
+   "word": "mark",
+   "phonetic": "/mɑːk/",
+   "pos": "v. & n. · Unit 7",
+   "meaning": "做记号；纪念；打分；记号"
+  },
+  {
+   "word": "national",
+   "phonetic": "/ˈnæʃnəl/",
+   "pos": "adj. · Unit 7",
+   "meaning": "国家的；民族的"
+  },
+  {
+   "word": "found",
+   "phonetic": "/faʊnd/",
+   "pos": "v. · Unit 7",
+   "meaning": "创建；创立"
+  },
+  {
+   "word": "meaningful",
+   "phonetic": "/ˈmiːnɪŋfl/",
+   "pos": "adj. · Unit 7",
+   "meaning": "有意义的；重要的"
+  },
+  {
+   "word": "make a wish",
+   "phonetic": "",
+   "pos": "Unit 7",
+   "meaning": "许愿"
+  },
+  {
+   "word": "celebration",
+   "phonetic": "/ˌselɪˈbreɪʃn/",
+   "pos": "n. · Unit 7",
+   "meaning": "庆典；庆祝（活动）"
+  },
+  {
+   "word": "post",
+   "phonetic": "/pəʊst/",
+   "pos": "n. & v. · Unit 7",
+   "meaning": "帖子；邮政；邮寄；发布"
+  },
+  {
+   "word": "contact",
+   "phonetic": "/ˈkɒntækt/",
+   "pos": "n. & v. · Unit 7",
+   "meaning": "联系；接触；联系；联络"
+  },
+  {
+   "word": "symbol",
+   "phonetic": "/ˈsɪmbl/",
+   "pos": "n. · Unit 7",
+   "meaning": "象征；符号"
+  },
+  {
+   "word": "take a photo",
+   "phonetic": "",
+   "pos": "Unit 7",
+   "meaning": "拍照"
+  },
+  {
+   "word": "village",
+   "phonetic": "/ˈvɪlɪdʒ/",
+   "pos": "n. · Unit 7",
+   "meaning": "村庄；村镇"
+  },
+  {
+   "word": "grow",
+   "phonetic": "/ɡrəʊ/",
+   "pos": "v. · Unit 7",
+   "meaning": "成长；长大；增长"
+  },
+  {
+   "word": "blow",
+   "phonetic": "/bləʊ/",
+   "pos": "v. · Unit 7",
+   "meaning": "吹；刮"
+  },
+  {
+   "word": "blow out",
+   "phonetic": "",
+   "pos": "Unit 7",
+   "meaning": "吹灭"
+  },
+  {
+   "word": "enjoy",
+   "phonetic": "/ɪnˈdʒɔɪ/",
+   "pos": "v. · Unit 7",
+   "meaning": "享受……的乐趣；喜欢"
+  },
+  {
+   "word": "height",
+   "phonetic": "/haɪt/",
+   "pos": "n. · Unit 7",
+   "meaning": "身高；高度"
+  },
+  {
+   "word": "later",
+   "phonetic": "/ˈleɪtə(r)/",
+   "pos": "adv. & adj. · Unit 7",
+   "meaning": "以后（的）；后来（的）"
+  },
+  {
+   "word": "next time",
+   "phonetic": "",
+   "pos": "Unit 7",
+   "meaning": "下次"
+  },
+  {
+   "word": "whom",
+   "phonetic": "/huːm/",
+   "pos": "pron. · Unit 7",
+   "meaning": "谁；什么人"
+  },
+  {
+   "word": "William Shakespeare",
+   "phonetic": "/ˈwɪljəm/ /ˈʃeɪksprə(r)/",
+   "pos": "Unit 7",
+   "meaning": "威廉·莎士比亚"
+  },
+  {
+   "word": "Florence Nightingale",
+   "phonetic": "/ˈflɒrəns/ /ˈnaɪtɪŋɡeɪl/",
+   "pos": "Unit 7",
+   "meaning": "弗洛伦斯·南丁格尔"
+  },
+  {
+   "word": "National Day",
+   "phonetic": "",
+   "pos": "Unit 7",
+   "meaning": "国庆节"
+  },
+  {
+   "word": "CPC Founding Day",
+   "phonetic": "",
+   "pos": "Unit 7",
+   "meaning": "中国共产党建党纪念日"
+  },
+  {
+   "word": "PLA Day",
+   "phonetic": "",
+   "pos": "Unit 7",
+   "meaning": "中国人民解放军建军节"
+  },
+  {
+   "word": "Judy",
+   "phonetic": "/ˈdʒuːdi/",
+   "pos": "Unit 7",
+   "meaning": "朱迪"
+  },
+  {
+   "word": "Clark",
+   "phonetic": "/klɑːk/",
+   "pos": "Unit 7",
+   "meaning": "克拉克"
+  }
+ ]
+}
